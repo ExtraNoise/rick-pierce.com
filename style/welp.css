@@ -1,0 +1,66 @@
+/* Amazing stuff to follow */
+
+body {
+	background:#312e2d;
+	color:#c5b99c;
+	font-family:'Exo',Helvetica,Arial,sans-serif;
+	font-size:10pt;
+	margin:0;
+	padding:0;
+}
+
+img { border:0;margin:0;padding:0; }
+a { margin:0;padding:0;outline:none; }
+
+p { line-height:1.6em; margin-top:0; }
+#clear { clear:both; }
+
+
+/* Elements that control chaos */
+
+a {
+	color:#c5b99c;
+	text-decoration:none;
+}
+
+.content {
+	background:url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.container {
+	width:600px;
+	margin:0 auto;
+}
+
+#logoarea {
+	width:600px;
+	text-align:center;
+}
+
+#headertext {
+	width:600px;
+	margin:100px 0;
+}
+
+
+/* Design from ooze */
+
+#content_top { padding:140px 0; }
+
+#logo {
+	font-family:'Vollkorn',serif;
+	font-size:800%;
+	font-weight:900;
+	width:600px;
+	margin:0;
+	padding:0;
+	line-height:80%;
+	letter-spacing:-0.02em;
+}
+
+#email {
+	font-size:200%;
+	margin:0;
+	padding:0;
+}

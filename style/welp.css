@@ -25,24 +25,25 @@ a {
 
 .content {
 	width: 100wh;
-	height: 90vh;
+	height: 80vh;
 	background:url('../images/fuzz.png') left top repeat;
 	padding: 0;
 }
 
 .container {
-	width:600px;
+	max-width:600px;
 	margin:0 auto;
 }
 
 #logoarea {
-	width:600px;
+	max-width:600px;
 	text-align:center;
 }
 
 #headertext {
-	width:600px;
+	max-width:600px;
 	margin:100px 0 60px;
+	padding:0 30px;
 }
 
 #socialicons {
@@ -58,7 +59,7 @@ a {
 	font-family:'Vollkorn',serif;
 	font-size:800%;
 	font-weight:900;
-	width:600px;
+	max-width:600px;
 	margin:0;
 	padding:0;
 	line-height:80%;

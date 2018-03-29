@@ -125,6 +125,17 @@ h4 {
 	border:0;
 }
 
+.textGallery {
+	font-family:'Vollkorn',serif;
+	background:#c5b99c;
+	border:1px solid rgb(255,255,255);
+	border-radius:3px;
+	color:#312e2d;
+	padding:20px;
+	text-align:justify;
+	margin:10px auto 20px;
+}
+
 .titleSection {
 	margin-top:3em;
 }

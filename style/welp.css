@@ -1,7 +1,7 @@
 /* Amazing stuff to follow */
 
 body {
-	background:#312e2d;
+	background:#312e2d url('../images/fuzz.png') left top repeat;
 	color:#c5b99c;
 	font-family:'Exo',Helvetica,Arial,sans-serif;
 	font-size:10pt;
@@ -23,10 +23,17 @@ a {
 	text-decoration:none;
 }
 
+h3 {
+	font-size:160%;
+}
+
+h4 {
+	font-size:120%;
+}
+
 .content {
 	width: 100wh;
 	height: 80vh;
-	background:url('../images/fuzz.png') left top repeat;
 	padding: 0;
 }
 
@@ -99,12 +106,36 @@ a {
 	background-size:cover;
 }
 
+.imageGallery {
+	background:rgba(0,0,0,0.2);
+	border:1px solid rgb(90,90,90);
+	border-radius:3px;
+	padding:10px;
+	text-align:center;
+	margin:0 auto;
+}
 
-/* ★·.·´¯`·.·★ MAGIC ★·.·´¯`·.·★ 
+.inlineBlock {
+	display:inline-block;
+}
 
-body {
-	width: 100wh;
-	height: 90vh;
+.imageGallery div a img {
+	padding:6px;
+	margin:0;
+	border:0;
+}
+
+.titleSection {
+	margin-top:3em;
+}
+
+.titleSubsection {
+	margin-top:3em;
+}
+
+/* ★·.·´¯`·.·★ MAGIC ★·.·´¯`·.·★ */
+/*
+#content_top {
 	background: linear-gradient(-65deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;

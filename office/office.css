@@ -1,4 +1,4 @@
-#topBar { display:none; }
+#topBar { display:none !important; }
 
 .bigTerminal
 {

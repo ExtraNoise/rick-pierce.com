@@ -581,10 +581,10 @@ q
 	position:absolute;
 	left:50%;
 	top:50%;
-	width:400px;
-	height:400px;
-	margin-left:-200px;
-	margin-top:-200px;
+	width:256px;
+	height:256px;
+	margin-left:-128px;
+	margin-top:-128px;
 	background-color:transparent;
 	box-shadow:none;
 	border:none;

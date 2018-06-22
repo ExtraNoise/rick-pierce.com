@@ -1,0 +1,13 @@
+.thing.bigButton
+{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:400px;
+	height:400px;
+	margin-left:-200px;
+	margin-top:-200px;
+	background-color:transparent;
+	box-shadow:none;
+	border:none;
+}

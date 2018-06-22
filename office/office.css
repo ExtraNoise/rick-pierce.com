@@ -2,10 +2,14 @@ body,a,.thing {
 	cursor:url(http://www.rick-pierce.com/office/img_Cursor.png),auto;
 }
 
+.thing.terminal {
+	background:url(http://www.rick-pierce.com/office/img_Terminal.png) 0 0 no-repeat;
+}
+
 .thing.bigButton {
 	transform:translate(0,100%);
 }
 
-.thing.terminal {
-	background:url(http://www.rick-pierce.com/office/img_Terminal.png) 0 0 no-repeat;
-}
+.thing.terminal:hover{background:url(http://www.rick-pierce.com/office/img_Terminal.png) 0 0 no-repeat;}
+
+#thing-icon-0 {background:transparent;}

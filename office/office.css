@@ -1,18 +1,4 @@
-.bigTerminal
-{
-	background:url('http://www.rick-pierce.com/office/img_Terminal.png') 0 0 no-repeat;
-	display:block;
-	position:absolute;
-	left:50%;
-	top:400px;
-	width:400px;
-	height:400px;
-	margin-left:-200px;
-	margin-top:-200px;
-	background-color:transparent;
-	box-shadow:none;
-	border:none;
-}
+
 
 /*animations*/
 .plop

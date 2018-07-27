@@ -1,0 +1,501 @@
+/* Amazing stuff to follow */
+
+body {
+	background:#312e2d;
+	color:#c5b99c;
+	font-family:'Exo',Helvetica,Arial,sans-serif;
+	font-size:10pt;
+	margin:0;
+	padding:0;
+}
+
+img { border:0;margin:0;padding:0; }
+a { margin:0;padding:0;outline:none; }
+
+p { line-height:1.6em; margin-top:0; }
+#clear { clear:both; }
+
+
+/* Elements that control chaos */
+
+a {
+	color:#c5b99c;
+	text-decoration:none;
+}
+
+.content {
+	background:url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_new {
+	background:#000 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_uxdesign {
+	background:#1962a5 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_webdev {
+	background:#2672b8 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_mobile {
+	background:#337fcd url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_bullseye {
+	background:#2672b8 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_prop {
+	background:#3c2f1d url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_environment {
+	background:#4e3d24 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_realtime {
+	background:#4e3d24 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_level {
+	background:#554834 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_other3d {
+	background:#453c30 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_branding {
+	background:#a7c12b url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_graphicdesign {
+	background:#a3dd24 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_illustration {
+	background:#80cf23 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.content_contact {
+	background:#111 url('../images/fuzz.png') left top repeat;
+	padding: 0 0 60px;
+}
+
+.container {
+	width:960px;
+	margin:0 auto;
+}
+
+#logoarea {
+	float:left;
+	width:320px;
+	margin-right:20px;
+}
+
+#headertext {
+	float:left;
+	width:400px;
+	margin-right:40px;
+}
+
+#text {
+	color:#fff;
+	float:left;
+	width:290px;
+	margin-top:70px;
+	margin-right:30px;
+}
+
+ul#menu {
+	float:left;
+	width:170px;
+	font-size:110%;
+	padding:0;
+	margin:0 10px 0 0;
+	list-style-type:none;
+}
+
+ul#menu li.endcap {
+	margin-bottom:1.5em;
+}
+
+ul#menu li a {
+	color:#c5b99c;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+ul#menu li.firstlink a:hover { color:#fff; }
+ul#menu li.weblink a:hover { color:#3a8cdc; }
+ul#menu li.threelink a:hover { color:#b28756; }
+ul#menu li.illulink a:hover { color:#94c229; }
+ul#menu li.contactlink a:hover { color:#b54634; }
+
+.thumb {
+	width:160px;
+	height:160px;
+	float:left;
+}
+
+
+/* Design from ooze */
+
+#content_top { padding:140px 0 140px; }
+
+h1.logo {
+	background:url('../images/rickpierce2.png') left top no-repeat;
+	width:320px;
+	height:210px;
+	margin:0 0 20px;
+	padding:0;
+}
+
+h1.logo span {
+	display:none;
+}
+
+h2 {
+	width:30px;
+	height:300px;
+	float:left;
+	margin-top:70px;
+	margin-left:-45px;
+}
+
+h2.title_latestwork {
+	background:url('../images/title_latestwork.png') right top no-repeat;
+}
+
+h2.title_uxdesign {
+	background:url('../images/title_uxdesign.png') right top no-repeat;
+}
+
+h2.title_webdev {
+	background:url('../images/title_webdev.png') right top no-repeat;
+}
+
+h2.title_mobile {
+	background:url('../images/title_mobile.png') right top no-repeat;
+}
+
+h2.title_prop {
+	background:url('../images/title_prop.png') right top no-repeat;
+}
+
+h2.title_environment {
+	background:url('../images/title_environment.png') right top no-repeat;
+}
+
+h2.title_realtime {
+	background:url('../images/title_realtime.png') right top no-repeat;
+}
+
+h2.title_level {
+	background:url('../images/title_level.png') right top no-repeat;
+}
+
+h2.title_other3d {
+	background:url('../images/title_other3d.png') right top no-repeat;
+}
+
+h2.title_branding {
+	background:url('../images/title_branding.png') right top no-repeat;
+}
+
+h2.title_graphicdesign {
+	background:url('../images/title_graphicdesign.png') right top no-repeat;
+}
+
+h2.title_illustration {
+	background:url('../images/title_illustration.png') right top no-repeat;
+}
+
+h2.title_bullseye {
+	background:url('../images/title_bullseye.png') right top no-repeat;
+}
+
+h2.title_richcraig {
+	background:url('../images/title_richcraig.png') right top no-repeat;
+}
+
+h2.title_3dchicago {
+	background:url('../images/title_3dchicago.png') right top no-repeat;
+}
+
+h2.title_quandary {
+	background:url('../images/title_quandary.png') right top no-repeat;
+}
+
+h2.title_contact {
+	background:url('../images/title_contact.png') right top no-repeat;
+}
+
+h2 span {
+	display:none;
+}
+
+div.email {
+	background:url('../images/email2.png') left top no-repeat;
+	width:320px;
+	height:30px;
+}
+
+div.email span {
+	display:none;
+}
+
+#container_new { 
+	background: url('../images/newbg.png') center top repeat-x; 
+	min-height:300px;
+}
+
+.herolink {
+	margin-top:70px;
+	width:960px;
+	height:340px;
+	float:left;
+}
+
+.hero {
+	background:#c5b99c url('../images/hero.jpg') center top no-repeat;
+	width:960px;
+	height:330px;
+	padding-bottom:10px;
+}
+
+.hero span {
+	display:none;
+}
+
+.imageGallery {
+	width:640px;
+	padding-left:330px;
+	padding-top:70px;
+}
+
+.imageGallery a {
+	line-height:0;
+}
+
+.imageGallery img {
+	margin-left:-2px;
+}
+
+.imageGallery div a img {
+	padding:6px;
+	margin:0;
+	border:0;
+}
+
+/* THE FORMMM! */
+
+#form {
+	width:660px;
+	padding-left:320px;
+	padding-top:70px;
+}
+
+select, option{
+	font-size:120%;
+}
+
+ol.phpfmg_form{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+ol.phpfmg_form li{
+	margin-bottom:5px;
+	display:inline;
+	overflow:hidden;
+	width: 300px
+}
+
+.field_area{
+	width:640px;
+}
+
+.form_submit_block{
+	padding-top: 3px;
+	float:left;
+}
+
+.form_button {
+	background:#ad3a27;
+	border:1px #d33e26 solid;
+	width:80px;
+	height:30px;
+	color:#111;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:90%;
+	margin-left:30px;
+	-moz-box-shadow: 1px 4px 4px #111;
+	-webkit-box-shadow: 1px 4px 4px #111;
+    box-shadow: 1px 4px 4px #111;
+	float:right;
+}
+
+.text_box, .text_select {
+	background:#111;
+	color:#d33e26;
+	font-family:Helvetica,Arial,Tahoma,sans-serif;
+	width:290px;
+	min-height:20px;
+	padding:10px;
+	margin:0;
+	border:0;
+	outline-color:#333;
+}
+
+.text_captcha {
+	background:#111;
+	color:#d33e26;
+	font-family:Helvetica,Arial,Tahoma,sans-serif;
+	width:190px;
+	min-height:20px;
+	padding:10px;
+	margin-left:20px;
+	margin-top:-3px;
+	border:0;
+	outline-color:#333;
+}
+
+.text_area{
+	background:#111;
+	color:#d33e26;
+	font-family:Helvetica,Arial,Tahoma,sans-serif;
+	width:620px;
+	min-height:140px;
+	padding:10px;
+	margin:0;
+	border:0;
+	outline-color:#333;
+}
+
+.explain {
+	color:#555;
+	font-size:100%;
+	font-weight:bold;
+	display:block;
+	margin:3px 0 20px;
+}
+
+.col_field {
+	width:310px;
+	float:left;
+	margin-right:20px;
+}
+
+.bottom_field {
+	width:100px;
+}
+
+.big_field {
+	width:640px;
+}
+
+.captcha_field {
+	float:left;
+	width:540px;
+}
+
+.form_error_title{
+	font-weight: bold;
+	color: red;
+}
+
+.form_error{
+	border: 1px dashed #d33e26;
+	padding: 10px;
+	margin-bottom: 10px;
+	width:620px;
+}
+
+.form_error_highlight{
+	border-bottom: 1px dashed #d33e26;
+}
+
+div.instruction_error{
+	color: #d33e26;
+	font-weight:bold;
+}
+
+hr.sectionbreak{
+	height:1px;
+	color: #ccc;
+}
+
+/* And, you know, some extra bits down here (how rude!) */
+
+.sociallink {
+	width:42px;
+	height:42px;
+	margin-top:16px;
+	margin-right:16px;
+	float:left;
+}
+
+.sociallink span {
+	display:none;
+}
+
+#email {
+	background:url('../images/icon_email.png') center center no-repeat;
+}
+#facebook {
+	background:url('../images/icon_facebook.png') center center no-repeat;
+}
+#twitter {
+	background:url('../images/icon_twitter.png') center center no-repeat;
+}
+#linkedin {
+	background:url('../images/icon_linkedin.png') center center no-repeat;
+}
+#email, #facebook, #twitter, #linkedin {
+	background-size:cover;
+}
+
+.textGallery {
+	font-family:'Vollkorn',serif;
+	background:#c5b99c;
+	border:1px solid rgb(255,255,255);
+	border-radius:3px;
+	color:#312e2d;
+	padding:20px;
+	text-align:justify;
+	margin:10px auto 20px;
+}
+
+.titleSection {
+	margin-top:3em;
+}
+
+.titleSubsection {
+	margin-top:3em;
+}
+
+.lightboxOverlay {
+	opacity: 0.9 !important;
+}
+.lb-caption {
+	font-weight:normal !important;
+}

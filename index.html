@@ -7,14 +7,18 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
 	<meta name="viewport" content="user-scalable=yes, width=1200">
-	<meta name="copyright" content="Rick Pierce" />  
+	<meta name="copyright" content="Rick Pierce" /> 
+	<meta name="description" content="The way hip and very cool online portfolio for Rick Pierce, an expierenced web developer, graphic designer, and artist living in the Seattle area." /> 
 	<meta name="robots" content="all" /> 
 
 	<title>Rick Pierce</title>
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Exo:400,700,700i|Vollkorn:400,900" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css" href="style/welp.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/main.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/lightbox.min.css" media="screen" />
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 </head>
 
 <body>
@@ -25,49 +29,250 @@
 	
 		<div id="logoarea">
 
-			<a href="mailto:rickpierce@gmail.com">
-
-				<h1 id="logo">Rick Pierce</h1>
-
-				<div id="emailaddress">rickpierce@gmail.com</div>
-
-			</a>
+			<h1 class="logo"><span>Portfolio of Rick Pierce</span></h1>
+			<a href="mailto:rickpierce@gmail.com"><div class="email"><span>rickpierce@gmail.com</span></div></a>
 		
 		</div>
 		
 		<div id="headertext">
 
-			<p>Hi there. Welcome.</p>
+			<p>I am a designer turned developer turned creative that has an interest in (just about) everything. At present I am a Front-End Development Team Lead for a Seattle-based marketing firm.</p>
 
-			<p>I am a designer turned developer turned creative that has an interest in (just about) everything. At present I am a Front-End Development Team Lead for a Seattle-based marketing firm. While I'm not currently looking for contract work, please feel free to get in touch with me if I can be of some&nbsp;help.</p>
+			<p>This page is a collection of works I've created over the years that I'm most proud of.</p>
+
+			<p>I do a lot of things. Hold onto your butts.</p>
 		
 		</div>
+		
+		<ul id="menu">
+		
+			<!-- <li class="endcap firstlink"><a href="#latestwork" alt="Latest work" class="scroll">Latest work</a></li> -->
 
-		<div id="socialicons">
+			<li class="weblink"><a href="#uxdesign" alt="User-experience (UX) design portfolio" class="scroll">User-experience design</a></li>
+			<li class="endcap weblink"><a href="#webdev" alt="Web development portfolio" class="scroll">Web development</a></li>
 
-			<a href="mailto:rickpierce@gmail.com" title="Email Me">
-				<div class="icon" id="email"><span>Email Me</span></div>
-			</a>
+			<li class="illulink"><a href="#graphicdesign" alt="Graphic design portfolio" class="scroll">Graphic design</a></li>
+			<li class="endcap illulink"><a href="#illustration" alt="Illustration portfolio" class="scroll">Illustration &amp; other</a></li>
 
-			<a href="https://www.facebook.com/RickPierceColorizations/" title="Rick Pierce Colorizations">
-				<div class="icon" id="facebook"><span>Rick Pierce Colorizations</span></div>
-			</a>
+			<li class="contactlink"><a href="#contact" alt="Contact info for Rick Pierce" class="scroll">Contact information</a></li>
+		
+		</ul>
+		
+		<div id="clear"><div id="uxdesign"></div></div>
 
-			<a href="https://twitter.com/ExtraNoise" title="@ExtraNoise on Twitter">
-				<div class="icon" id="twitter"><span>@ExtraNoise on Twitter</span></div>
-			</a>
+	</div>
 
-			<a href="https://www.linkedin.com/in/rickapierce/" title="Connect with me on LinkedIn">
-				<div class="icon" id="linkedin"><span>Rick Pierce on LinkedIn</span></div>
-			</a>
+</div>
+
+<div class="content_uxdesign">
+
+	<div class="container">
+	
+		<h2 class="title_uxdesign"><span>User experience (UX) portfolio.</span></h2>
+		
+		<div id="text">
+
+			<p>
+				I love interfaces. Web interfaces, game interfaces, app interfaces. The only thing I like more than interacting with a good interface is <em>designing</em> a good interface.
+			</p>
+			<p>
+				Most of my professional career has been spent working directly with user experience, whether it be developing interactions in a design or creating the design itself.
+			</p>
+			<p>
+				I believe in a tactile experience, even when a user is experiencing a design through a screen. My goal is to help the user help themselves and&mdash;after they're done using the product&mdash;forget the interface was ever there.
+			</p>
+		
+		</div>
+		
+		<div class="imageGallery">
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>Millennium's Shadow submod</strong><br><br>Millennium's Shadow was an interface/experience overhaul for the Hearts of Iron 4 game mod Millennium Dawn. Changes included standardizing graphics files, in-game fonts, leader portraits, national map colors, and interface popups.<br><br><strong>Involvement:</strong> Design and development<br><strong>Created:</strong> 2017" href="images/major_milshadow.jpg"><img src="images/thumb_milshadow.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>ExpertZone Newsletter</strong><br><br>Highly-modular email design for Microsoft ExpertZone monthly newsletter and notice blasts. Designed to be easy for non-developers to maintain, the layout utilizes standardized sections that can be updated quickly.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2014" href="images/major_expertzone.jpg"><img src="images/thumb_expertzone.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>Plate Finder app mockup</strong><br><br>Mobile app designed for use on road trips or just around town. When you spot a new state license plate design, check it off a list to earn badges and brag about your superior spotting powers to your friends. It brings the license plate game to the twenty-first century to make your daily commute a little more interesting.<br><br><strong>Involvement:</strong> App function specification and design<br><strong>Created:</strong> 2013" href="images/major_plates.jpg"><img src="images/thumb_plates.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>Microsoft Surface interest mailer</strong><br><br>Microsoft Surface launch mailer distributed to everyone who signed up to receive more information during the Surface announcement. This email was localized into 37 languages.<br><br><strong>Involvement:</strong> Design and development<br><strong>Created:</strong> 2012" href="images/major_surface.jpg"><img src="images/thumb_surface.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>Rich Craig Construction website</strong><br><br>Website design for a Los Angeles-area artisan builder. The motivation was to capture elegance, luxury, and authenticity in craftsmanship. The pages are very simple, feature beautiful color photographs, and emphasize Rich's skill through customer testimonials.<br><br><strong>Involvement:</strong> Design and development<br><strong>Created:</strong> 2011" href="images/major_craig.jpg"><img src="images/thumb_craig.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>History of the World 9</strong><br><br>Turn-based historical geopolitical strategy game in which players battle for supremacy to control the fate of the world. The game begins in the stone age and progresses forward through seven additional ages. Ideologies emerge, alliances are formed, technology researched, and wars are waged.<br><br><strong>Involvement:</strong> Game design, interface design, development<br><strong>Created:</strong> 2011" href="images/major_hotwgame.jpg"><img src="images/thumb_hotwgame.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>MountainStats.com</strong><br><br>Fictional website for personal practice. Design focusing on social engagement and interaction. Bright, fun colors were chosen to bring visitors into the page while relaying information neatly.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2009" href="images/major_mountainstats.jpg"><img src="images/thumb_mountainstats.jpg" /></a>
+
+			<a class="thumb" data-lightbox="uxdesign" data-title="<strong>Chronline.com redesign</strong><br><br>Regional daily newspaper serving 70,000+ readers. Colors used throughout to identify sections at a glance. Use of large photos and other multimedia. Custom database allows for past articles to be retroactively added, creating a rich digital legacy with over 120 years of news in live-text, not PDF scans. Standards-compliance modular design using Wordpress as a CMS.<br><br><strong>Involvement:</strong> Design and development<br><strong>Created:</strong> 2008" href="images/major_chronline.jpg"><img src="images/thumb_chronline.jpg" /></a>
+		</div>
+		
+		<div id="clear"><div id="webdev"></div></div>
+
+	</div>
+
+</div>
+
+<div class="content_webdev">
+
+	<div class="container">
+	
+		<h2 class="title_webdev"><span>Web development portfolio.</span></h2>
+		
+		<div id="text">
+
+			<p>
+				I've been developing websites and pages in one form or another for over fifteen years. I am a methodical and thoughtful developer, always striving for code so clean and readable that non-developers could understand it. I'm not satisfied with a block of code until it meets my expectations.
+			</p>
+			<p>
+				Recently I've focused my talents on email development, which requires a strict and precise level of coding to display properly across all browsers and email clients. Factor into that mobile rendering and animation, and it's no surprise that I've overseen email development for some of the largest brands on planet.
+			</p>
+			<p>
+				I've always loved a good challenge.
+			</p>
+		
+		</div>
+		
+		<div class="imageGallery">
+			<a class="thumb" data-lightbox="webdev" data-title="<strong>Clicker Clicker</strong><br><br>Clicker Clicker began as a personal project to clone the game Cookie Clicker. The goal of the game is to click on the computer terminal to generate Clicks, which you can use to hire developers, social media evangelists, managers, and more, that will help generate even more Clicks for you.<br><br>As the game progresses, the means by which you go to gain more clicks becomes somewhat less scrupulous. Pretty soon you'll have to start making hard moral decisions that will affect your company, such as whether or not to turn your developers into mindless coding robots or literally liquidate your middle managers.<br><br><strong>Involvement:</strong> Design and development<br><strong>Created:</strong> 2016" href="images/major_clicker.jpg"><img src="images/thumb_clicker.jpg" /></a>
+
+			<a class="thumb" data-lightbox="webdev" data-title="<strong>Gap, Inc. emails</strong><br><br>Transactional emails for Gap, Inc. brands, including Gap, Banana Republic, and Old Navy. United States and Canada markets.<br><br><strong>Involvement:</strong> Lead developer, creating nearly 500 emails and advising team on best strategy and technique.<br><strong>Created:</strong> 2014" href="images/major_gap.jpg"><img src="images/thumb_gap.jpg" /></a>
+
+			<a class="thumb" data-lightbox="webdev" data-title="<strong>Corbis modular emails</strong><br><br>A series of modular email designs for Corbis Images. Each month, a custom-populated email would be delivered based on users' account preferences. Individual pieces could be triggered manually before send by the client to target customers directly.<br><br><strong>Involvement:</strong> Development<br><strong>Created:</strong> 2013" href="images/major_corbis.jpg"><img src="images/thumb_corbis.jpg" /></a>
+
+			<a class="thumb" data-lightbox="webdev" data-title="<strong>2013 Annual Letter from Bill Gates</strong><br><br>Bill &amp; Melinda Gates 2013 Annual Letter describing that year's progress and accomplishments in helping improve the health and welfare of millions of people around the world.<br><br>This annual letter was featured on several news broadcasts including NBC Nightly News and Good Morning America.<br><br><strong>Involvement:</strong> Design consultation with creative team. Development and lead development.<br><strong>Created:</strong> 2013" href="images/major_gates.jpg"><img src="images/thumb_gates.jpg" /></a>
+
+			<a class="thumb" data-lightbox="webdev" data-title="<strong>Explore Windows newsletters</strong><br><br>Introductory transactional emails for new Windows users, featured during Windows 8 post-launch, sent to over eight million people in 44 markets.<br><br><strong>Involvement:</strong> Development<br><strong>Created:</strong> 2012" href="images/major_ew.jpg"><img src="images/thumb_ew.jpg" /></a>
 
 		</div>
+		
+		<div id="clear"><div id="graphicdesign"></div></div>
 
+	</div>
+
+</div>
+
+<div class="content_graphicdesign">
+
+	<div class="container">
+	
+		<h2 class="title_graphicdesign"><span>Graphic design portfolio.</span></h2>
+		
+		<div id="text">
+
+			<p>
+				Graphic design is where I began my professional career. As such, I have a soft-spot for both digital and print design and regularly like to create new work that honors the strengths of both of these realms.
+			</p>
+			<p>
+				As a developer, these talents come into good use when working on projects that might not have a specific graphic designer or when the graphic design department is already on another assignment.
+			</p>
+			<p>
+				I primarily work in Adobe Photoshop, Illustrator, and InDesign, but I am comfortable with other (older) applications such as Quark and Corel tools.
+			</p>
+		
+		</div>
+		
+		<div class="imageGallery">
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Game mod: Stellaris emblems</strong><br><br>A collection of fictional and nonfictional emblems used by various groups on Earth. There are over 170 emblems included, with plans to continued additions. My goal was to get the emblems to match as closely in style to the default emblems included in the game.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2017" href="images/major_stellaris.jpg"><img src="images/thumb_stellaris.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Card game: The Chronology Division</strong><br><br>Based on a series of short stories I wrote, each player plays as an officer trying to repair the timeline.<br><br>The game layout is similar to the game Chrononauts, in which all cards are placed in a line from earliest to latest across the table, randomly either on their A or B side. This represents the timeline. Players then take turns attempting to repair the timeline or working against other players to sabotage it using drawn decision cards.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2015" href="images/major_chrondiv.jpg"><img src="images/thumb_chrondiv.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Cover design: The Chronology Division</strong><br><br>I began writing short stories in earnest in 2014, creating a series about a time-traveling detective from the future who goes back to the past to prevent disruptions to the timeline. These covers are the illustrations created for each story for use on the Amazon Kindle marketplace.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2014" href="images/major_covers.jpg"><img src="images/thumb_covers.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Metro brand redesign</strong><br><br>Done as a quarterly personal project, I re-imagined the King County Metro brand. By starting with a survey first, I analyzed what people thought of the current brand and tried to find ways to improve the overall negative image using new bright colors, modern typefaces, and forward-moving design.<br><br><strong>Involvement:</strong> Planning, design, execution<br><strong>Created:</strong> 2014" href="images/major_metro.jpg"><img src="images/thumb_metro.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Typeface design: Thirtioh 600</strong><br><br>Typeface creation for personal use, currently a work-in-progress. Thirtioh is a geometric sans-serif based on European type families during the early twentieth century.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2014" href="images/major_thirtioh.jpg"><img src="images/thumb_thirtioh.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Logo design: Rylem Consulting</strong><br><br>A new logo was requested that incorporated Rylem's current &ldquo;dancing man&rdquo; but also played on the agency's employee-placement focus. This final-revision design attempts to blend fun and serious.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2012" href="images/major_rylem.jpg"><img src="images/thumb_rylem.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Interactive story: Moments, a Game of Consequence</strong><br><br>Moments was originally released as a thread on the SomthingAwful.com forums where I described finding an old floppy disk with a mysterious program. Over the course of the next year, I led players on an interactive story of the protagonist's life, self-discovery, and eventually the realization that the program was not all that it appeared to be.<br><br><strong>Involvement:</strong> Design, writing<br><strong>Created:</strong> 2012" href="images/major_moments.jpg"><img src="images/thumb_moments.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Logo design: Moonunit Studios</strong><br><br>Commissioned logo piece for game development startup. Design to invoke child-like wonder, imagination, and endless possibilities.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2011" href="images/major_moonunit.jpg"><img src="images/thumb_moonunit.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Card game design: Divided We Stand</strong><br><br>Collectible card game where opponents battle for political control for what's left of major American cities in a post-apocalyptic dystopia.<br><br><strong>Involvement:</strong> Design and development<br><strong>Created:</strong> 2011" href="images/major_dws.jpg"><img src="images/thumb_dws.jpg" /></a>
+
+			<a class="thumb" data-lightbox="graphicdesign" data-title="<strong>Logo design: Creative Cow Studios</strong><br><br>Conceptual logo for interactive digital marketing firm based out of Seattle. Designed to be fun, personable, and approachable.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2009" href="images/major_creativecow.jpg"><img src="images/thumb_creativecow.jpg" /></a>
+		</div>
+		
+		<div id="clear"><div id="illustration"></div></div>
+
+	</div>
+
+</div>
+
+<div class="content_illustration">
+
+	<div class="container">
+	
+		<h2 class="title_illustration"><span>Illustration, 3D, &amp; other works portfolio.</span></h2>
+		
+		<div id="text">
+
+			<p>Outside of design, more "traditional" art and alternative works are usually used in supplementation to a project I'm developing. In many cases I simply like to express some creativity without it being attached to a specific job. The following section has various forms of other art I've done from game assets to personal projects in traditional medium to large-scale marketing campaigns.</p>
+			<p>I enjoy working in a wide range mediums, from digital illustration or pixel art. Photography (HDR and stereo) and photo-manipulation are also hobbies of mine.</p>
+			<p>You'll also notice a selection of my 3D work, both for real-time applications and high-poly models. I found that when I played games, I enjoyed modifying them more than playing them and eventually took up 3D art as a way of bringing my ideas to life.</p>
+		
+		</div>
+		
+		<div class="imageGallery">
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Battalion Command development</strong><br><br>In 2016 a friend and I stumbled upon tabletop wargaming and were instantly hooked. We’ve since recruited a small group from our office that does weekly games in the evening after work. I especially enjoyed the “complicated” rule sets—the kind usually only found in video games—expressed in a tangible way. It’s a lot of fun to take an active role in generating the numbers the game uses to determine outcomes by rolling dice.<br><br>With an assortment of tabletop rules in mind, I began working on a ruleset for my own tabletop game called Battalion Command. The game pits two or more players in direct competition (or teams in competition) to eliminate each other or fulfill objectives, depending on the scenario chosen by the players before the game begins.<br><br>Players take control of a group of tanks (usually from 3 to 15) and give orders to the crew inside each tank (as outlined on a large playing card kept to the side of the board) to position those tanks, fire upon their opponents, and carry out special abilities. Crewmen inside may not always respond to a command ordered, may panic, and occasionally will perish or rout during battle.<br><br>In addition to modeling the individual crew operating each tank, the tanks themselves have unique attributes that can be activated. The weapon systems are also modeled, so that certain types of rounds can be loaded and used to destroy especially difficult opponents or “spot” tanks for aerial and artillery strikes. Right now the game focuses on the armored vehicles used during World War II and the early Cold War, but the goal is to incorporate the breadth of armored history, from the Great War to today.<br><br><strong>Created:</strong> 2018" href="images/major_bc.jpg"><img src="images/thumb_bc.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Prop modeling: Columbia Center</strong><br><br>A 1:1 scale replica of the Columbia Tower in Seattle for the game Cities: Skylines. This building has been featured in a number of Seattle replicas built in the game, one of which even ended up in PC Gamer magazine.<br><br><strong>Created:</strong> 2016" href="images/major_columbia.jpg"><img src="images/thumb_columbia.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Photo colorization: Sarasota Florida, 1941</strong><br><br>Photo colorization done as a technique improvement piece. This colorization was later featured on The Huffington Post.<br><br><strong>Created:</strong> 2014" href="images/major_sarasota.jpg"><img src="images/thumb_sarasota.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Prop modeling: 1993</strong><br><br>Various objects created for an unreleased 3D interactive story set in the year 1993.<br><br><strong>Involvement:</strong> Modeling and texturing<br><strong>Created:</strong> 2013" href="images/major_1993.jpg"><img src="images/thumb_1993.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Digital card game, Damage study</strong><br><br>These images represent the levels of damage that a card in an unreleased digital card game can incur over use. The game is designed to be both a battle-system game as well as a collection and trading system game.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2013" href="images/major_damage.jpg"><img src="images/thumb_damage.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Photo colorization: After the March, 1963</strong><br><br>Photo colorization done as a commission for NPR's 50th anniversary coverage of the March On Washington. This particular image shows the buses going home after a long day, twilight settling in on the Washington Monument.<br><br><strong>Created:</strong> 2013" href="images/major_washington.jpg"><img src="images/thumb_washington.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Subreddit Map</strong><br><br>A map showing various community subreddits. Subreddit names sizes are based on total subscriber count. Regional and state subreddits appear in special case. Map data composed from USGS sources.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2013" href="images/major_redditmap.jpg"><img src="images/thumb_redditmap.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>M-TRON Minifig</strong><br><br>Highly-detailed 3D model of a LEGO minifigure, showcasing mould lines, injection imperfections, and printing errors.<br><br><strong>Involvement:</strong> Design<br><strong>Created:</strong> 2011" href="images/major_legoman.jpg"><img src="images/thumb_legoman.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Left 4 Dead mod: USS Challenger</strong><br><br><em>The crew of the Federation starship Challenger find themselves mysteriously transformed into mindless killing machines after discovering an anomaly in space. Can the remaining few who survive make it to the bridge and send for help?</em><br><br>This is a custom single-map campaign for the game Left 4 Dead. It was built to model the USS Challenger, a sister ship to the USS Enterprise from The Next Generation.<br><br><strong>Involvement:</strong> Level design, 3D modeling, texturing<br><strong>Created:</strong> 2011" href="images/major_challenger.jpg"><img src="images/thumb_challenger.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Pixel art: Early 1980s vehicles</strong><br><br>A series of pixel art sprites done for a game (unreleased). Meant to represent typical vehicles you would find on the streets of Los Angeles in the early 1980s.<br><br><strong>Created:</strong> 2011" href="images/major_pixelcars.jpg"><img src="images/thumb_pixelcars.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Pixel art: Pop Graphics, European</strong><br><br>Series of population sprites done for the game History of the World 9. This set represents the European populations and covers from the stone age to the future.<br><br><strong>Created:</strong> 2010" href="images/major_hotw.jpg"><img src="images/thumb_hotw.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Prop modeling: L1A1 SLR rifle</strong><br><br>Character's primary weapon for the Half-Life 2 modification &ldquo;1985&rdquo;.<br><br><strong>Involvement:</strong> Modeling, texturing<br><strong>Created:</strong> 2010" href="images/major_l1a1.jpg"><img src="images/thumb_l1a1.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>Prop modeling: British objects</strong><br><br>Various street objects created for the Half-Life 2 modification &ldquo;1985&rdquo;.<br><br><strong>Involvement:</strong> Modeling, texturing<br><strong>Created:</strong> 2009" href="images/major_1985.jpg"><img src="images/thumb_1985.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>3D Chicago</strong><br><br>Low-poly model of Chicago for use in architecture, engineering, and civil development projects. Buildings are properly located and to scale. No greebles are used.<br><br><strong>Involvement:</strong> Modeling<br><strong>Created:</strong> 2009" href="images/major_chicago.jpg"><img src="images/thumb_chicago.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>The 2000s Zeitgeist</strong><br><br>Typographic editorial design of the years 2000 through 2009. Phrases and words appear in semi-chronological order in their respective year reading from left to right. Designed to invoke nostalgia.<br><br><strong>Involvement:</strong> Research and design<br><strong>Created:</strong> 2009" href="images/major_zeitgeist.jpg"><img src="images/thumb_zeitgeist.jpg" /></a>
+
+			<a class="thumb" data-lightbox="illustration" data-title="<strong>3D San Francisco</strong><br><br>Low-poly model of San Francisco for use in architecture, engineering, and civil development projects. Buildings are properly located and to scale. No greebles are used.<br><br><strong>Involvement:</strong> Modeling<br><strong>Created:</strong> 2008" href="images/major_sanfran.jpg"><img src="images/thumb_sanfran.jpg" /></a>
+		</div>
+		
+		<div id="clear"><div id="contact"></div></div>
+		
+	</div>
+
+</div>
+
+<div class="content_contact">
+
+	<div class="container">
+	
+		<h2 class="title_contact"><span>Contact Rick Pierce.</span></h2>
+		
+		<div id="text">
+
+			<p>Contacting me is simple:<br>Email me at <a href="mailto:rickpierce@gmail.com">rickpierce@gmail.com</a>.</p>
+
+			<a href="http://www.linkedin.com/in/rickapierce" title="Rick Pierce on LinkedIn"><div id="linkedin" class="sociallink"><span>Rick Pierce on LinkedIn</span></div></a>
+			<a href="http://twitter.com/ExtraNoise" title="Rick Pierce (ExtraNoise) on Twitter"><div id="twitter" class="sociallink"><span>Rick Pierce (ExtraNoise) on Twitter</span></div></a>
+			<a href="https://www.facebook.com/RickPierceColorizations/" title="Rick Pierce Colorizations on Facebook"><div id="facebook" class="sociallink"><span>Rick Pierce Colorizations on Facebook</span></div></a>
+
+		
+		</div>
+		
 		<div id="clear"></div>
 
 	</div>
 
 </div>
+
+<script src="js/lightbox.min.js"></script>
 
 </body>
 

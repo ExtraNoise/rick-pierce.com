@@ -23,84 +23,75 @@ a {
 	text-decoration:none;
 }
 
-.content {
-	background:url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
-}
-
-.content_new {
+#content_top { 
 	background:#000 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
+	padding-top:90px;
 }
 
-.content_uxdesign {
+#content_new {
+	background:#000 url('../images/fuzz.png') left top repeat;
+}
+
+#content_uxdesign {
 	background:#1962a5 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_webdev {
+#content_webdev {
 	background:#2672b8 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_mobile {
+#content_mobile {
 	background:#337fcd url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_bullseye {
+#content_bullseye {
 	background:#2672b8 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_prop {
+#content_prop {
 	background:#3c2f1d url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_environment {
+#content_environment {
 	background:#4e3d24 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_realtime {
+#content_realtime {
 	background:#4e3d24 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_level {
+#content_level {
 	background:#554834 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_other3d {
+#content_other3d {
 	background:#453c30 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_branding {
+#content_branding {
 	background:#a7c12b url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_graphicdesign {
+#content_graphicdesign {
 	background:#a3dd24 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_illustration {
+#content_illustration {
 	background:#80cf23 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
 }
 
-.content_contact {
+#content_contact {
 	background:#111 url('../images/fuzz.png') left top repeat;
-	padding: 0 0 60px;
+}
+
+.content {
+	padding:0 0 60px;
 }
 
 .container {
 	width:960px;
 	margin:0 auto;
+	padding:60px 0;
 }
 
 #logoarea {
@@ -156,8 +147,6 @@ ul#menu li.contactlink a:hover { color:#b54634; }
 
 
 /* Design from ooze */
-
-#content_top { padding:140px 0 140px; }
 
 h1.logo {
 	background:url('../images/rickpierce2.png') left top no-repeat;

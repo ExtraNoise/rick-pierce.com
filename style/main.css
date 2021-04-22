@@ -459,7 +459,10 @@ hr.sectionbreak{
 #linkedin {
 	background:url('../images/icon_linkedin.png') center center no-repeat;
 }
-#email, #facebook, #twitter, #linkedin {
+#instagram {
+	background:url('../images/icon_instagram.png') center center no-repeat;
+}
+#email, #facebook, #twitter, #linkedin, #instagram {
 	background-size:cover;
 }
 

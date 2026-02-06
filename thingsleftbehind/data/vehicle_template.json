@@ -1,0 +1,209 @@
+		"2051templatemodel": {
+			"yearStart": 2051,
+			"yearEnd": 2051,
+			"make": "Template",
+			"model": "Model",
+			"trim": {
+				"First": 0.5,
+				"Second": 0.3,
+				"Third": 0.2
+			},
+			"type": "debug",
+			"trans": ["automatic"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 11.0,
+			"capBatt": null,
+			"color": {
+				"black": 0.5,
+				"red": 0.5
+			},
+			"storGlasses": {
+				"capacity": null,
+				"visible": false
+			},
+			"storVisorDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": null,
+				"visible": false
+			},
+			"storGloveBoxUp": {
+				"capacity": null,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": null,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": null,
+				"visible": false
+			},
+			"storCenCupHold": {
+				"capacity": null,
+				"visible": false
+			},
+			"storCenConTray": {
+				"capacity": null,
+				"visible": false
+			},
+			"storCenCon": {
+				"capacity": null,
+				"visible": false
+			},
+			"storCenConSm": {
+				"capacity": null,
+				"visible": false
+			},
+			"storCenConR": {
+				"capacity": null,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"storDoorFPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"storDoorRDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"storDoorRPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"storTDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"storTPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"storRearWell": {
+				"capacity": 7,
+				"visible": false
+			},
+			"storRearCompDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"storRearCompPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": null,
+				"visible": false
+			},
+			"storFrunk": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFCent": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatTDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatTCent": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatTPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderFDriv": {
+				"capacity": 2,
+				"visible": false
+			},
+			"seatUnderFCent": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 2,
+				"visible": false
+			},
+			"seatUnderRDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderRCent": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderRPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderTDriv": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderTCent": {
+				"capacity": null,
+				"visible": false
+			},
+			"seatUnderTPass": {
+				"capacity": null,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorFDriv": {
+				"visible": false
+			},
+			"hangDoorFPass": {
+				"visible": false
+			},
+			"hangDoorRDriv": {
+				"visible": false
+			},
+			"hangDoorRPass": {
+				"visible": false
+			}
+		}

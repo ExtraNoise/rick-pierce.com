@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Things Left Behind</title>
+  <link rel="icon" href="./img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      background: #131717;
+      background: linear-gradient(340deg, #364156 0%, #212d40 35%, #11151c 100%);
+      color: #cfcdca;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      font-family: "Inter", Arial, sans-serif;
+      font-optical-sizing: auto;
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    select, input {
+      background: #000000;
+      color: #cfcdca;
+      padding: 0.8em 1.1em;
+      border: 0;
+      border-radius: 5px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    #controls {
+      display: block;
+      background: rgba(17,21,28,0.6);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 16vw;
+      height: 100vh;
+      padding: 1vw;
+      text-align: center;
+    }
+
+    #controlSceneSelect,
+    #controlVehicleCount,
+    #controlSettingYear,
+    #controlElapAmount {
+      margin-bottom: 1em;
+    }
+
+    #elapsedAmount {
+      width: 2em;
+    }
+
+    #panelOutput {
+      display: flex;
+      align-items: flex-start;
+      overflow: hidden;
+      overscroll-behavior: contain;
+
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 80vw;
+      height: 100vh;
+      padding: 1vw;
+    }
+
+    #panelGeneration {
+      display: flex;
+    }
+
+    #output {
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-bottom: 2vh;
+
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;     /* Firefox */
+    }
+    #output::-webkit-scrollbar {
+      display: none;
+    }
+
+    .ctaGenerate { margin: 1vh 0; }
+
+    .ctaGenerate, .ctaLook, .ctaPeek {
+      background-color: #000000;
+      border-radius: 7px;
+      border: 2px solid #d66853;
+      display: inline-block;
+      align-self: flex-start;
+      cursor: pointer;
+      color: #cfcdca;
+      font-weight: bold;
+      padding: 0.8em 1.1em;
+      margin: 0 auto;
+      text-decoration: none;
+    }
+    .ctaGenerate:hover, .ctaLook:hover, .ctaPeek:hover {
+
+    }
+    .ctaGenerate:active, .ctaLook:active, .ctaPeek:active {
+      position: relative;
+      top: 1px;
+    }
+
+    .instruct {
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 1em;
+      text-shadow: 1px 1px 2px #000;
+      text-align: center;
+    }
+
+    .environment {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      background: rgba(0,0,0,0.2);
+      border-radius: 4px;
+      border: 1px solid rgba(19, 23, 23, 1);
+      text-align: center;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .vehicle, .storage {
+      display: flex;
+      flex-flow: row wrap;
+      align-content: stretch;
+      gap: 10px;
+    }
+
+    .vehicle {
+      flex-direction: column;
+      padding: 1em;
+      background: rgba(0,0,0,0.2);
+      border-radius: 4px;
+      border: 1px solid rgba(19, 23, 23, 1);
+      text-align: center;
+      text-shadow: 1px 1px 2px #000;
+    }
+    
+    .location {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 1em;
+      background: rgba(0,0,0,0.2);
+      border-radius: 4px;
+      border: 1px solid rgba(19, 23, 23, 1);
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .location .locationName {
+      color: #7D4E57;
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+
+    .location .locationItems em {
+      color: #364156;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="controls">
+    <div id="controlSceneSelect">
+      <!-- <div><label for="sceneSelect">Scene:</label></div> -->
+      <div><select id="sceneSelect" class="scene-select"></select></div>
+    </div>
+
+    <div id="controlVehicleCount">
+      <div><input type="number" id="vehicleCount" min="1" max="10" value="1"/>&nbsp;<label for="vehicleCount">Vehicles</label></div>
+    </div>
+
+    <div id="controlSettingYear">
+      <label id="settingYear">
+        <select id="apocalypseYear">
+          <option value="2026" selected>2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+          <option value="2009">2009</option>
+          <option value="2008">2008</option>
+          <option value="2007">2007</option>
+          <option value="2006">2006</option>
+          <option value="2005">2005</option>
+          <option value="2004">2004</option>
+          <option value="2003">2003</option>
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+          <option value="1999">1999</option>
+          <option value="1998">1998</option>
+          <option value="1997">1997</option>
+          <option value="1996">1996</option>
+          <option value="1995">1995</option>
+          <option value="1994">1994</option>
+          <option value="1993">1993</option>
+          <option value="1992">1992</option>
+          <option value="1991">1991</option>
+          <option value="1990">1990</option>
+          <option value="1989">1989</option>
+          <option value="1988">1988</option>
+          <option value="1987">1987</option>
+          <option value="1986">1986</option>
+          <option value="1985">1985</option>
+          <option value="1984">1984</option>
+          <option value="1983">1983</option>
+          <option value="1982">1982</option>
+          <option value="1981">1981</option>
+          <option value="1980">1980</option>
+          <option value="1979">1979</option>
+          <option value="1978">1978</option>
+          <option value="1977">1977</option>
+          <option value="1976">1976</option>
+          <option value="1975">1975</option>
+          <option value="1974">1974</option>
+          <option value="1973">1973</option>
+          <option value="1972">1972</option>
+          <option value="1971">1971</option>
+          <option value="1970">1970</option>
+          <option value="1969">1969</option>
+          <option value="1968">1968</option>
+          <option value="1967">1967</option>
+          <option value="1966">1966</option>
+          <option value="1965">1965</option>
+          <option value="1964">1964</option>
+          <option value="1963">1963</option>
+          <option value="1962">1962</option>
+          <option value="1961">1961</option>
+          <option value="1960">1960</option>
+          <option value="1959">1959</option>
+          <option value="1958">1958</option>
+          <option value="1957">1957</option>
+          <option value="1956">1956</option>
+          <option value="1955">1955</option>
+          <option value="1954">1954</option>
+          <option value="1953">1953</option>
+          <option value="1952">1952</option>
+          <option value="1951">1951</option>
+          <option value="1950">1950</option>
+        </select>
+        &nbsp;<label for="apocalypseYear">Event Year</label>
+      </label>
+    </div>
+
+    <div id="controlElapAmount">
+      <div>Time since the event?</div>
+      <div id="controlElapTime">
+          <label id="settingElapNum">
+            <input
+              type="number"
+              id="elapsedAmount"
+              value="0"
+              min="0"
+            />
+          </label>
+          <label id="settingElapUnit">
+            <select id="elapsedUnit">
+              <option value="Days" selected>Days</option>
+              <option value="Weeks">Weeks</option>
+              <option value="Months">Months</option>
+              <option value="Years">Years</option>
+            </select>
+          </label>
+      </div>
+    </div>
+
+    <div id="panelGeneration">
+      <div id="generateBtn" class="ctaGenerate">Generate Vehicle(s)</div>
+    </div>
+  </div>
+
+  <div id="panelOutput">
+    <div id="output">Initializing generator…</div>
+  </div>
+
+  <script type="module">
+    import { WorldTime, TimeUnit } from "./src/logic/worldTime.js";
+    import { SceneDatabase } from "./src/logic/sceneDatabase.js";
+    import { VehicleGenerator } from "./src/logic/vehicleGenerator.js";
+    import { renderVehicle } from "./src/ui/renderVehicle.js";
+
+    async function loadJSON(path) {
+      const response = await fetch(path);
+      if (!response.ok) {
+        throw new Error(`Failed to load ${path}`);
+      }
+      return response.json();
+    }
+
+    async function setupGenerator() {
+      const itemDbRaw = await loadJSON("./data/items.json");
+      const vehicleDbRaw = await loadJSON("./data/vehicles.json");
+      const vehicleLabelsRaw = await loadJSON("./data/vehicle_labels.json");
+      const sceneDbRaw = await loadJSON("./data/scenes.json");
+
+      const itemDb = itemDbRaw.items ?? itemDbRaw;
+      const vehicleDb = vehicleDbRaw.vehicles ?? vehicleDbRaw;
+      const sceneDb = new SceneDatabase(sceneDbRaw.scenes ?? sceneDbRaw);
+
+      return {
+        itemDb,
+        vehicleDb,
+        vehicleLabels: vehicleLabelsRaw,
+        sceneDb,
+      };
+    }
+
+    const outputEl = document.getElementById("output");
+    const button = document.getElementById("generateBtn");
+    const apocalypseYearInput = document.getElementById("apocalypseYear");
+    const elapsedAmountInput = document.getElementById("elapsedAmount");
+    const elapsedUnitSelect = document.getElementById("elapsedUnit");
+    const sceneSelect = document.getElementById("sceneSelect");
+    const vehicleCountInput = document.getElementById("vehicleCount");
+
+    let generatorContext = null;
+
+    setupGenerator()
+      .then(ctx => {
+        generatorContext = ctx;
+        populateSceneDropdown(ctx.sceneDb);
+        outputEl.innerHTML = '<div class="instruct"><p><em>Things Left Behind</em> generates vehicles (and the things left in them) for a narrative-driven game in a contemporary or post-apocalyptic setting.</p><p>It&rsquo;s intended to be used by those running role-playing games (RPGs) to answer players&rsquo; questions: &ldquo;Is there any good loot in these cars?&rdquo;</p><p>It can also be used as an exploration simulator.</p><p><strong>Click &ldquo;Generate Vehicle(s)&rdquo; to begin.</strong></p><div>';
+      })
+      .catch(err => {
+        outputEl.textContent = "Error initializing generator:\n" + err;
+        console.error(err);
+      });
+
+    function indefiniteArticle(phrase) {
+      if (!phrase || typeof phrase !== "string") return "a";
+
+      const firstWord = phrase.trim().toLowerCase();
+
+      if (/^(a|e|i|o|u)/.test(firstWord)) {
+        return "an";
+      }
+
+      return "a";
+    }
+
+    function populateSceneDropdown(sceneDb) {
+      if (!sceneSelect) return;
+
+      const defaultOption = document.createElement("option");
+      defaultOption.value = "";
+      defaultOption.textContent = "— Select a scene —";
+      defaultOption.disabled = true;
+      defaultOption.selected = true;
+      sceneSelect.appendChild(defaultOption);
+
+      sceneDb.getAllScenes().forEach(scene => {
+        const option = document.createElement("option");
+        option.value = scene.id;
+        option.textContent = scene.label;
+        sceneSelect.appendChild(option);
+      });
+    }
+
+    function getVehicleIntro(index, total) {
+      if (total === 1) {
+        return "You see";
+      }
+
+      if (index === 0) {
+        return "Nearby, you notice";
+      }
+
+      const options = [
+        "Next to it is",
+        "Parked further down is",
+        "A short distance away sits",
+        "Off to the side is",
+      ];
+
+      return options[index % options.length];
+    }
+
+    button.addEventListener("click", () => {
+      if (!generatorContext) return;
+
+      const apocalypseYear = parseInt(apocalypseYearInput.value, 10);
+      const elapsedAmount = parseInt(elapsedAmountInput.value, 10);
+      const elapsedUnit = elapsedUnitSelect.value;
+      const worldTime = new WorldTime(
+        apocalypseYear,
+        elapsedAmount,
+        elapsedUnit
+      );
+
+      const selectedSceneId = sceneSelect.value || null;
+      const selectedScene = selectedSceneId
+        ? generatorContext.sceneDb.getSceneById(selectedSceneId)
+        : null;
+
+      const count = Math.max(
+        1,
+        Math.min(10, parseInt(vehicleCountInput.value, 10) || 1)
+      );
+
+      const runtimeGenerator = new VehicleGenerator({
+        itemDb: generatorContext.itemDb,
+        vehicleDb: generatorContext.vehicleDb,
+        sceneDb: generatorContext.sceneDb,
+        worldTime,
+        scene: selectedScene
+      });
+
+      outputEl.innerHTML = "";
+
+      if (selectedScene) {
+        outputEl.innerHTML += `
+          <div class="environment">
+            <div class="environmentDescription">
+              You are standing on ${indefiniteArticle(selectedScene.description)} ${selectedScene.description}.
+            </div>
+          </div>
+        `;
+      }
+
+      for (let i = 0; i < count; i++) {
+        const result = runtimeGenerator.generateSingleVehicle();
+
+        if (!result) {
+          outputEl.innerHTML =
+            "No valid vehicles could be generated for the selected year.\n\n" +
+            "This usually means there are no vehicles in the database\n" +
+            "that exist before this apocalypse year.";
+          return;
+        }
+
+        const intro = getVehicleIntro(i, count);
+
+        outputEl.innerHTML += renderVehicle(
+          result,
+          generatorContext.vehicleLabels,
+          intro
+        );
+      }
+
+      outputEl.addEventListener("click", (event) => {
+        const lookBtn = event.target.closest(".ctaLook");
+        const peekBtn = event.target.closest(".ctaPeek");
+
+        // LOOK CLOSER
+        if (lookBtn) {
+          const vehicle = lookBtn.closest(".vehicle");
+          if (!vehicle) return;
+
+          vehicle.querySelector(".vehicleDescription")?.classList.remove("hidden");
+          vehicle.querySelector(".ctaPeek")?.classList.remove("hidden");
+          lookBtn.classList.add("hidden");
+        }
+
+        // PEEK INSIDE
+        if (peekBtn) {
+          const vehicle = peekBtn.closest(".vehicle");
+          if (!vehicle) return;
+
+          vehicle.querySelector(".vehiclePeek")?.classList.remove("hidden");
+          vehicle.querySelector(".storage")?.classList.remove("hidden");
+          peekBtn.classList.add("hidden");
+        }
+      });
+    });
+  </script>
+</body>
+</html>

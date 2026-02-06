@@ -1,0 +1,1787 @@
+{
+	"vehicles": {
+		"2021toyotasienna": {
+			"yearStart": 2021,
+			"yearEnd": 2026,
+			"make": "Toyota",
+			"model": "Sienna",
+			"trim": {
+				"LE": 0.3,
+				"XLE": 0.2,
+				"XSE": 0.2,
+				"Limited": 0.2,
+				"Platinum": 0.1
+			},
+			"type": "family",
+			"class": "minivan",
+			"trans": ["automatic"],
+			"ignt": "fob",
+			"power": "hybrid",
+			"capTank": 18.0,
+			"capBatt": 4.0,
+			"color": {
+				"black": 0.1,
+				"bronze": 0.05,
+				"dark gray": 0.1,
+				"forest-green": 0.1,
+				"gloss gray": 0.05,
+				"metallic red": 0.15,
+				"metallic white": 0.25,
+				"silver": 0.05,
+				"slate-blue": 0.05,
+				"white": 0.1
+			},
+			"storGlasses": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenCupHold": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 5,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storCenConSm": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenConR": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storTDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storTPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storRearCompDriv": {
+				"capacity": 6,
+				"visible": true
+			},
+			"storRearCompPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 11,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatTDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatTCent": {
+				"capacity": 5,
+				"visible": true
+			},
+			"seatTPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderTDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"seatUnderTCent": {
+				"capacity": 1,
+				"visible": false
+			},
+			"seatUnderTPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			},
+			"hangDoorRPass": {
+				"visible": true
+			}
+		},
+		"2020teslamodely": {
+			"yearStart": 2020,
+			"yearEnd": 2026,
+			"make": "Tesla",
+			"model": "Model Y",
+			"trim": {
+				"Standard": 0.6,
+				"Premium": 0.3,
+				"Performance": 0.1
+			},
+			"type": "family",
+			"class": "crossover",
+			"trans": ["automatic"],
+			"ignt": "card",
+			"power": "electric",
+			"capTank": null,
+			"capBatt": 260.0,
+			"color": {
+				"black": 0.35,
+				"dark gray": 0.2,
+				"red": 0.1,
+				"royal-blue": 0.1,
+				"white": 0.25
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storCenCupHold": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storCenCon": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storRearCompDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storRearCompPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storTrunk": {
+				"capacity": 8,
+				"visible": true
+			},
+			"storFrunk": {
+				"capacity": 5,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 6,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 4,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			},
+			"hangDoorRPass": {
+				"visible": true
+			}
+		},
+		"2018chevroletequinox": {
+			"yearStart": 2018,
+			"yearEnd": 2024,
+			"make": "Chevrolet",
+			"model": "Equinox",
+			"trim": {
+				"LS": 0.7,
+				"LT": 0.3
+			},
+			"type": "family",
+			"class": "crossover",
+			"trans": ["automatic"],
+			"ignt": "fob",
+			"power": "gasoline",
+			"capTank": 14.9,
+			"capBatt": null,
+			"color": {
+				"black": 0.1,
+				"bright metallic blue": 0.05,
+				"champagne": 0.05,
+				"dark blue": 0.05,
+				"dark gray": 0.15,
+				"forest-green": 0.05,
+				"metallic orange": 0.1,
+				"red": 0.15,
+				"rose-gold": 0.05,
+				"silver": 0.15,
+				"white": 0.1
+			},
+			"storGlasses": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storCenCupHold": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storRearCompDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 5,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRCent": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			},
+			"hangDoorRPass": {
+				"visible": true
+			}
+		},
+		"2010toyotaprius": {
+			"yearStart": 2010,
+			"yearEnd": 2015,
+			"make": "Toyota",
+			"model": "Prius",
+			"trim": {},
+			"type": "sedan",
+			"class": "sedan",
+			"trans": ["automatic"],
+			"ignt": "fob",
+			"power": "hybrid",
+			"capTank": 11.9,
+			"capBatt": 2.0,
+			"color": {
+				"black": 0.05,
+				"light gold": 0.15,
+				"gray": 0.1,
+				"metallic blue": 0.1,
+				"metallic red": 0.15,
+				"silver": 0.15,
+				"white": 0.3
+			},
+			"storGlasses": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storGloveBoxUp": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storCenCupHold": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 8,
+				"visible": false
+			},
+			"storRearCompDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 10,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 5,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			},
+			"hangDoorRPass": {
+				"visible": true
+			}
+		},
+		"2006chevrolethhr": {
+			"yearStart": 2006,
+			"yearEnd": 2011,
+			"make": "Chevrolet",
+			"model": "HHR",
+			"trim": {
+				"LS": 0.6,
+				"LT": 0.4
+			},
+			"type": "family",
+			"class": "crossover",
+			"trans": ["automatic"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 16.0,
+			"capBatt": null,
+			"color": {
+				"black": 0.08,
+				"champagne": 0.08,
+				"dark red": 0.08,
+				"gray": 0.14,
+				"metallic blue": 0.06,
+				"metallic orange": 0.22,
+				"red": 0.08,
+				"silver": 0.14,
+				"white": 0.12
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storGloveBoxUp": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storCenCupHold": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storCenConR": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorFDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 4,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 4,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			},
+			"hangDoorRPass": {
+				"visible": true
+			}
+		},
+		"2001fordfocus": {
+			"yearStart": 2001,
+			"yearEnd": 2003,
+			"make": "Ford",
+			"model": "Focus",
+			"trim": {
+				"SVT": 0.1,
+				"ZX3": 0.9
+			},
+			"type": "economy",
+			"class": "hatchback",
+			"trans": ["automatic", "manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 13.2,
+			"capBatt": null,
+			"color": {
+				"black": 0.1,
+				"bronze": 0.05,
+				"dark blue": 0.05,
+				"forest-green": 0.05,
+				"gold": 0.15,
+				"gray": 0.05,
+				"metallic blue": 0.05,
+				"red": 0.15,
+				"silver": 0.15,
+				"white": 0.1,
+				"yellow": 0.1
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": true
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": true
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 1,
+				"visible": true
+			},
+			"storCenCupHold": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storCenConSm": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 5,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			}
+		},
+		"1997jeepwrangler": {
+			"yearStart": 1997,
+			"yearEnd": 2006,
+			"make": "Jeep",
+			"model": "Wrangler",
+			"trim": {
+				"Sport": 0.5,
+				"SE": 0.4,
+				"Sahara": 0.1
+			},
+			"type": "offroad",
+			"class": "offroader",
+			"trans": ["automatic", "manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 15.0,
+			"capBatt": null,
+			"color": {
+				"black": 0.11,
+				"blue": 0.06,
+				"brick-red": 0.05,
+				"brown": 0.08,
+				"dark blue": 0.03,
+				"dark green": 0.05,
+				"forest-green": 0.08,
+				"gold": 0.05,
+				"gray": 0.05,
+				"olive-green": 0.13,
+				"red": 0.15,
+				"slate-blue": 0.03,
+				"teal": 0.05,
+				"white": 0.08
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 5,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRDriv": {
+				"capacity": 2,
+				"visible": false
+			},
+			"seatUnderRPass": {
+				"capacity": 2,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorFDriv": {
+				"visible": true
+			},
+			"hangDoorFPass": {
+				"visible": true
+			}
+		},
+		"1993mercedesbenzsl": {
+			"yearStart": 1993,
+			"yearEnd": 1998,
+			"make": "Mercedes-Benz",
+			"model": "SL",
+			"trim": {
+				"280": 0.25,
+				"300": 0.4,
+				"500": 0.3,
+				"600": 0.05
+			},
+			"type": "sports",
+			"class": "convertible",
+			"trans": ["automatic"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 21.1,
+			"capBatt": 0.0,
+			"color": {
+				"black": 0.08,
+				"black-and-dark gray": 0.08,
+				"champagne": 0.12,
+				"gold": 0.05,
+				"light-and-dark silver": 0.07,
+				"metallic burgundy": 0.08,
+				"metallic teal": 0.07,
+				"red": 0.13,
+				"silver": 0.08,
+				"silver-and-gray": 0.07,
+				"white": 0.12,
+				"white-and-silver": 0.05
+			},
+			"storGlasses": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenCon": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storRearCompDriv": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storRearCompPass": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 6,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 6,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			}
+		},
+		"1984nissan300zx": {
+			"yearStart": 1984,
+			"yearEnd": 1989,
+			"make": "Nissan",
+			"model": "300ZX",
+			"trim": {
+				"standard": 0.8,
+				"Turbo": 0.2
+			},
+			"type": "sports",
+			"class": "sports car",
+			"trans": ["automatic", "manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 20.3,
+			"capBatt": null,
+			"color": {
+				"burgundy": 0.08,
+				"brown": 0.05,
+				"dark gray": 0.05,
+				"gold": 0.15,
+				"metallic light blue": 0.22,
+				"red": 0.1,
+				"silver": 0.2,
+				"white": 0.15
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": true
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": true
+			},
+			"storGloveBox": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenConTray": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storDoorFPass": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": true
+			},
+			"storRearCompDriv": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storRearCompPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 2,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 2,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			}
+		},
+		"1984hondacivic": {
+			"yearStart": 1984,
+			"yearEnd": 1987,
+			"make": "Honda",
+			"model": "Civic",
+			"trim": {
+				"sedan": 0.7,
+				"Wagovan": 0.3
+			},
+			"type": "economy",
+			"class": "compact",
+			"trans": ["automatic", "manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 12.0,
+			"capBatt": null,
+			"color": {
+				"beige": 0.05,
+				"champagne": 0.2,
+				"gray": 0.1,
+				"metallic light blue": 0.3,
+				"silver": 0.2,
+				"white": 0.15
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenTray": {
+				"capacity": 4,
+				"visible": true
+			},
+			"storCenConTray": {
+				"capacity": 5,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorFPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRDriv": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storDoorRPass": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": false
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			}
+		},
+		"1979fordmustang": {
+			"yearStart": 1979,
+			"yearEnd": 1993,
+			"make": "Ford",
+			"model": "Mustang",
+			"trim": {
+				"LX": 0.7,
+				"GT": 0.25,
+				"SVO": 0.05
+			},
+			"type": "showoff",
+			"class": "muscle car",
+			"trans": ["automatic", "manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 15.4,
+			"capBatt": 0.0,
+			"color": {
+				"black": 0.08,
+				"dark blue": 0.05,
+				"dark brown": 0.05,
+				"dark gray": 0.08,
+				"dark red": 0.12,
+				"metallic light blue": 0.14,
+				"red": 0.12,
+				"sage-green": 0.1,
+				"silver": 0.08,
+				"tan": 0.08,
+				"white": 0.1
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storCenConTray": {
+				"capacity": 3,
+				"visible": true
+			},
+			"storCenCon": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 2,
+				"visible": true
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 9,
+				"visible": true
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			}
+		},
+		"1968volkswagenbeetle": {
+			"yearStart": 1968,
+			"yearEnd": 1978,
+			"make": "Volkswagen",
+			"model": "Beetle",
+			"trim": {},
+			"type": "economy",
+			"class": "coupe",
+			"trans": ["automatic", "manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 10.6,
+			"capBatt": null,
+			"color": {
+				"black": 0.06,
+				"beige": 0.1,
+				"dark blue": 0.06,
+				"gold": 0.1,
+				"green": 0.06,
+				"light blue": 0.1,
+				"light gray": 0.08,
+				"light yellow": 0.08,
+				"orange": 0.1,
+				"red": 0.08,
+				"white": 0.1,
+				"yellow": 0.08
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storDoorFDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storDoorFPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 5,
+				"visible": true
+			},
+			"storFrunk": {
+				"capacity": 7,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 6,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 6,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 6,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 4,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			}
+		},
+		"1958ramblerambassador": {
+			"yearStart": 1958,
+			"yearEnd": 1961,
+			"make": "Rambler",
+			"model": "Ambassador",
+			"trim": {
+				"Super": 0.8,
+				"Custom": 0.2
+			},
+			"type": "sedan",
+			"class": "sedan",
+			"trans": ["automatic"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 18.0,
+			"capBatt": null,
+			"color": {
+				"black": 0.07,
+				"light gray": 0.05,
+				"light green": 0.08,
+				"pale yellow": 0.06,
+				"slate-blue": 0.08,
+				"sky-blue": 0.09,
+				"white-and-beige": 0.11,
+				"white-and-blue": 0.08,
+				"white-and-bronze": 0.04,
+				"white-and-metallic light green": 0.07,
+				"white-and-red": 0.09,
+				"white-and-rose pink": 0.08,
+				"white-and-teal": 0.10
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storDoorRDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storDoorRPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 7,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 5,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 4,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"seatUnderRDriv": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRCent": {
+				"capacity": 3,
+				"visible": false
+			},
+			"seatUnderRPass": {
+				"capacity": 3,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			},
+			"hangDoorRDriv": {
+				"visible": true
+			},
+			"hangDoorRPass": {
+				"visible": true
+			}
+		},
+		"1950chevroletbelair": {
+			"yearStart": 1950,
+			"yearEnd": 1954,
+			"make": "Chevrolet",
+			"model": "Bel Air",
+			"trim": {},
+			"type": "showoff",
+			"class": "coupe",
+			"trans": ["automatic"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 16.0,
+			"capBatt": null,
+			"color": {
+				"beige": 0.09,
+				"black": 0.07,
+				"black and seafoam": 0.07,
+				"burgundy": 0.05,
+				"dark-and-medium gray": 0.06,
+				"dark gray and pale yellow": 0.08,
+				"dark green and seafoam": 0.09,
+				"dark red": 0.06,
+				"eggshell": 0.05,
+				"eggshell and blue": 0.09,
+				"medium-and-dark gray": 0.05,
+				"seafoam": 0.11,
+				"white and seafoam": 0.11
+			},
+			"storVisorDriv": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storVisorPass": {
+				"capacity": 1,
+				"visible": false
+			},
+			"storGloveBox": {
+				"capacity": 4,
+				"visible": false
+			},
+			"storAsh": {
+				"capacity": 2,
+				"visible": false
+			},
+			"storRearWell": {
+				"capacity": 6,
+				"visible": false
+			},
+			"storTrunk": {
+				"capacity": 7,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatFCent": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 4,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 4,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			},
+			"hangStalksSignals": {
+				"visible": true
+			},
+			"hangStalksWipers": {
+				"visible": true
+			}
+		},
+		"1928fordmodela": {
+			"yearStart": 1928,
+			"yearEnd": 1932,
+			"make": "Ford",
+			"model": "Model A",
+			"trim": {},
+			"type": "historic",
+			"class": "coupe",
+			"trans": ["manual"],
+			"ignt": "key",
+			"power": "gasoline",
+			"capTank": 11.0,
+			"capBatt": null,
+			"color": {
+				"black": 0.12,
+				"blue": 0.07,
+				"brick-red": 0.08,
+				"dark brown": 0.07,
+				"light gray": 0.08,
+				"light yellow": 0.08,
+				"olive-drab": 0.1,
+				"red": 0.12,
+				"seafoam-green": 0.12,
+				"tan": 0.08,
+				"turquoise": 0.08
+			},
+			"storRearWell": {
+				"capacity": 7,
+				"visible": false
+			},
+			"seatFDriv": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFCent": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatFPass": {
+				"capacity": 8,
+				"visible": true
+			},
+			"seatRDriv": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRCent": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatRPass": {
+				"capacity": 7,
+				"visible": true
+			},
+			"seatUnderFDriv": {
+				"capacity": 2,
+				"visible": false
+			},
+			"seatUnderFCent": {
+				"capacity": 2,
+				"visible": false
+			},
+			"seatUnderFPass": {
+				"capacity": 2,
+				"visible": false
+			},
+			"hangRearviewCent": {
+				"visible": true
+			},
+			"hangShifter": {
+				"visible": true
+			}
+		}
+	}
+}

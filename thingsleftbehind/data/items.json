@@ -1,0 +1,1834 @@
+{
+  "items": {
+    "airfreshener": {
+      "name": "air freshener",
+      "category": "vehicle",
+      "size": 1,
+      "comBase": 0.45,
+      "comRepeat": 0.77,
+      "affOwner": ["commuter", "esoteric", "parent", "rideshare", "student", "traveler", "user", "worker"],
+      "affVehicle": ["economy", "family", "pickup", "sedan", "showoff"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storAsh", "storCenTray", "storCenCupHold", "storCenConTray", "storCenCon", "storDoorFDriv", "storRearWell", "seatUnderFDriv", "seatFPass", "hangRearviewCent", "hangShifter"],
+      "variants": [
+        {
+          "type": "clip-on",
+          "start": 2016,
+          "end": 2050,
+          "comVari": 0.4
+        },
+        {
+          "type": "novelty",
+          "start": 1994,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "pine tree",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1952,
+          "end": 2050,
+          "comVari": 0.8
+        }
+      ],
+      "itmState": {
+        "unopened": {
+          "comState": 0.1
+        },
+        "fresh": {
+          "comState": 0.1,
+          "decay": 0,
+          "ord": 0
+        },
+        "stale": {
+          "comState": 0.8,
+          "decay": 21,
+          "ord": 1
+        }
+      }
+    },
+    "apple": {
+      "name": "apple",
+      "category": "consumable_food",
+      "size": 3,
+      "comBase": 0.05,
+      "comRepeat": 0.4,
+      "affOwner": ["commuter", "parent", "rideshare", "student", "traveler", "worker"],
+      "affVehicle": ["economy", "family", "pickup", "sedan"],
+      "affStorage": ["storCenTray", "storCenCupHold", "storCenConTray"],
+      "variants": [
+        {
+          "type": "green",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "red",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "yellow",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.1
+        }
+      ],
+      "itmState": {
+        "fresh uneaten": {
+          "comState": 0.9,
+          "decay": 0,
+          "ord": 0
+        },
+        "soft": {
+          "comState": 0.06,
+          "decay": 16,
+          "ord": 1
+        },
+        "mushy": {
+          "comState": 0.02,
+          "decay": 36,
+          "ord": 2
+        },
+        "rotten": {
+          "comState": 0.01,
+          "decay": 112,
+          "ord": 3
+        },
+        "desiccated": {
+          "comState": 0.01,
+          "decay": 260,
+          "ord": 4
+        }
+      }
+    },
+    "bankcard": {
+      "name": "card",
+      "category": "personal",
+      "size": 1,
+      "comBase": 0.14,
+      "comRepeat": 0.04,
+      "affOwner": ["prepper", "professional", "trucker"],
+      "affVehicle": ["economy", "pickup", "sedan", "sports", "truck"],
+      "affStorage": ["storVisorDriv", "storVisorPass", "storGloveBox", "storGloveBoxUp", "storCenCon", "storCenConSm"],
+      "variants": [
+        {
+          "type": "credit",
+          "start": 1965,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "debit",
+          "start": 1979,
+          "end": 2050,
+          "comVari": 0.6
+        }
+      ],
+      "itmState": {
+        "valid": {
+          "comState": 0.6,
+          "decay": 0,
+          "ord": 0
+        },
+        "expired": {
+          "comState": 0.4,
+          "decay": 720,
+          "ord": 1
+        }
+      }
+    },
+    "baseball": {
+      "name": "baseball",
+      "category": "toy",
+      "size": 3,
+      "comBase": 0.03,
+      "comRepeat": 0.15,
+      "affOwner": ["parent", "teen"],
+      "affVehicle": ["economy", "family", "offroad", "pickup", "sedan"],
+      "affStorage": ["seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass", "storTrunk"],
+      "variants": [
+        {
+          "type": "autographed",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.01
+        },
+        {
+          "type": "little league",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.9
+        },
+        {
+          "type": "promotional",
+          "start": 1991,
+          "end": 2050,
+          "comVari": 0.4
+        }
+      ],
+      "itmState": {
+        "clean": {
+          "comState": 0.72
+        },
+        "grass-stained": {
+          "comState": 0.25
+        },
+        "peeling": {
+          "comState": 0.03
+        }
+      }
+    },
+    "baseballcap": {
+      "name": "baseball cap",
+      "category": "wearable_head",
+      "size": 3,
+      "comBase": 0.23,
+      "comRepeat": 0.01,
+      "affOwner": ["student", "teen", "trucker"],
+      "affVehicle": ["family", "offroad", "pickup", "showoff", "truck"],
+      "affStorage": ["storCenConTray", "storCenCon", "seatFDriv", "seatFCent", "seatFPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "storTrunk"],
+      "variants": [
+        {
+          "type": "camouflage",
+          "start": 1999,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "college",
+          "start": 1973,
+          "end": 2050,
+          "comVari": 0.25
+        },
+        {
+          "type": "county sheriff",
+          "start": 2004,
+          "end": 2050,
+          "comVari": 0.03
+        },
+        {
+          "type": "high school",
+          "start": 1998,
+          "end": 2050,
+          "comVari": 0.45
+        },
+        {
+          "type": "local police",
+          "start": 2013,
+          "end": 2050,
+          "comVari": 0.06
+        },
+        {
+          "type": "major-league",
+          "start": 1955,
+          "end": 2050,
+          "comVari": 0.9
+        },
+        {
+          "type": "minor-league",
+          "start": 1993,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "US Navy",
+          "start": 2002,
+          "end": 2050,
+          "comVari": 0.15
+        },
+        {
+          "type": "NFL",
+          "start": 2002,
+          "end": 2050,
+          "comVari": 0.15
+        },
+        {
+          "type": "plain vintage-style",
+          "start": 2011,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "political",
+          "start": 2016,
+          "end": 2025,
+          "comVari": 0.1
+        }
+      ],
+      "itmState": {
+        "brand-new": {
+          "comState": 0.2
+        },
+        "broken-in": {
+          "comState": 0.7
+        },
+        "well-loved": {
+          "comState": 0.1
+        }
+      }
+    },
+    "battery": {
+      "name": "battery",
+      "category": "electronic",
+      "size": 2,
+      "comBase": 0.12,
+      "comRepeat": 0.7,
+      "affOwner": ["commuter", "parent", "rideshare", "student", "traveler", "trucker"],
+      "affVehicle": ["family", "pickup", "sedan", "showoff", "sports", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenCon", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "9V",
+          "start": 1958,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "AA",
+          "spawnGroup": {
+            "mode": "handful",
+            "min": 1,
+            "max": 4
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "rechargable AA",
+          "spawnGroup": {
+            "mode": "handful",
+            "min": 1,
+            "max": 4
+          },
+          "start": 2011,
+          "end": 2024,
+          "comVari": 0.1
+        },
+        {
+          "type": "AAA",
+          "spawnGroup": {
+            "mode": "handful",
+            "min": 1,
+            "max": 4
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "C",
+          "spawnGroup": {
+            "mode": "handful",
+            "min": 1,
+            "max": 3
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.04
+        },
+        {
+          "type": "D",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.08
+        }
+      ],
+      "itmState": {
+        "usable": {
+          "comState": 0.2,
+          "decay": 0,
+          "ord": 0
+        },
+        "dead": {
+          "comState": 0.7,
+          "decay": 730,
+          "ord": 1
+        },
+        "corroded": {
+          "comState": 0.1,
+          "decay": 36,
+          "ord": 2
+        }
+      }
+    },
+    "beer": {
+      "name": "beer",
+      "category": "consumable_drink",
+      "size": 3,
+      "comBase": 0.13,
+      "comRepeat": 0.85,
+      "affOwner": ["student", "trucker", "user", "worker"],
+      "affVehicle": ["economy", "offroad", "pickup", "sports", "truck"],
+      "affStorage": ["seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass", "storTrunk"],
+      "variants": [
+        {
+          "type": "bottle of",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "can of",
+          "start": 1967,
+          "end": 2050,
+          "comVari": 0.6
+        }
+      ],
+      "itmState": {
+        "empty": {
+          "comState": 0.94
+        },
+        "unopened": {
+          "comState": 0.05,
+          "decay": 0,
+          "ord": 0
+        },
+        "spoiled": {
+          "comState": 0.01,
+          "decay": 3680,
+          "ord": 1
+        }
+      }
+    },
+    "bill": {
+      "name": "bill",
+      "category": "personal",
+      "size": 1,
+      "comBase": 0.19,
+      "comRepeat": 0.34,
+      "affOwner": ["elderly", "parent", "professional", "student", "trucker", "worker"],
+      "affVehicle": ["economy", "offroad", "pickup", "sports", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenTray", "storCenCupHold", "storCenConTray", "storCenCon", "storDoorFDriv", "storDoorFPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "alimony",
+          "start": 1971,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "auto loan",
+          "start": 1960,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "bank overdraft",
+          "start": 2001,
+          "end": 2019,
+          "comVari": 0.6
+        },
+        {
+          "type": "cable internet",
+          "start": 2006,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "cable TV",
+          "start": 1984,
+          "end": 2019,
+          "comVari": 0.3
+        },
+        {
+          "type": "cellphone",
+          "start": 2004,
+          "end": 2050,
+          "comVari": 0.4
+        },
+        {
+          "type": "collect-call phone",
+          "start": 1974,
+          "end": 2012,
+          "comVari": 0.2
+        },
+        {
+          "type": "credit card",
+          "start": 1980,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "daycare",
+          "start": 1976,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "dentist",
+          "start": 1970,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "electricity",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.4
+        },
+        {
+          "type": "gym membership",
+          "start": 1998,
+          "end": 2050,
+          "comVari": 0.7
+        },
+        {
+          "type": "home heating oil",
+          "start": 1950,
+          "end": 1978,
+          "comVari": 0.4
+        },
+        {
+          "type": "home insurance",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "home telephone",
+          "start": 1955,
+          "end": 2009,
+          "comVari": 0.3
+        },
+        {
+          "type": "hospital",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.7
+        },
+        {
+          "type": "household gas",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "household water",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "insurance premiums",
+          "start": 1995,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "library fines",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.4
+        },
+        {
+          "type": "magazine subscription",
+          "start": 1960,
+          "end": 2015,
+          "comVari": 0.1
+        },
+        {
+          "type": "milk delivery",
+          "start": 1950,
+          "end": 1964,
+          "comVari": 0.3
+        },
+        {
+          "type": "newspaper subscription",
+          "start": 1950,
+          "end": 2009,
+          "comVari": 0.6
+        },
+        {
+          "type": "optometrist",
+          "start": 1990,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "pager service",
+          "start": 1981,
+          "end": 2005,
+          "comVari": 0.3
+        },
+        {
+          "type": "parking garage",
+          "start": 1987,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "party-line telephone",
+          "start": 1950,
+          "end": 1959,
+          "comVari": 0.2
+        },
+        {
+          "type": "printout of a streaming subscription",
+          "start": 2016,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "property taxes",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "roadside assistance",
+          "start": 1986,
+          "end": 2022,
+          "comVari": 0.2
+        },
+        {
+          "type": "satellite TV",
+          "start": 1974,
+          "end": 2011,
+          "comVari": 0.4
+        },
+        {
+          "type": "store credit",
+          "start": 1954,
+          "end": 1977,
+          "comVari": 0.5
+        },
+        {
+          "type": "student loan",
+          "start": 1999,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "taxi service",
+          "start": 1950,
+          "end": 1983,
+          "comVari": 0.1
+        },
+        {
+          "type": "telegraph service",
+          "start": 1950,
+          "end": 1964,
+          "comVari": 0.2
+        },
+        {
+          "type": "therapist",
+          "start": 1988,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "tuition",
+          "start": 1974,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "video rental",
+          "start": 1989,
+          "end": 2010,
+          "comVari": 0.1
+        }
+      ],
+      "itmState": {
+        "copy of a": {
+          "comState": 0.2
+        },
+        "crumpled": {
+          "comState": 0.2
+        },
+        "final-notice": {
+          "comState": 0.1
+        },
+        "folded": {
+          "comState": 0.3
+        },
+        "past-due": {
+          "comState": 0.2
+        }
+      }
+    },
+    "businesscard": {
+      "name": "business card",
+      "category": "personal",
+      "size": 1,
+      "comBase": 0.21,
+      "comRepeat": 0.09,
+      "affOwner": ["commercial", "commuter", "elderly", "parent", "professional", "rideshare"],
+      "affVehicle": ["commercial", "economy", "family", "pickup", "sedan", "sports"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenTray", "storCenConTray", "storCenCon", "storDoorFDriv", "storDoorFPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "accountant's",
+          "start": 1950,
+          "end": 2015,
+          "comVari": 0.3
+        },
+        {
+          "type": "contractor's",
+          "start": 1970,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "handyman's",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.4
+        },
+        {
+          "type": "home inspector's",
+          "start": 1950,
+          "end": 2015,
+          "comVari": 0.2
+        },
+        {
+          "type": "lawyer's",
+          "start": 1950,
+          "end": 2015,
+          "comVari": 0.6
+        },
+        {
+          "type": "police detective's",
+          "start": 1950,
+          "end": 2015,
+          "comVari": 0.1
+        },
+        {
+          "type": "police officer's",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "private investigator's",
+          "start": 1950,
+          "end": 2015,
+          "comVari": 0.1
+        },
+        {
+          "type": "reporter's",
+          "start": 1950,
+          "end": 2005,
+          "comVari": 0.1
+        }
+      ],
+      "itmState": {
+        "crisp": {
+          "comState": 0.5
+        },
+        "dog-eared": {
+          "comState": 0.1
+        },
+        "fancy": {
+          "comState": 0.1
+        },
+        "stained": {
+          "comState": 0.1
+        },
+        "torn": {
+          "comState": 0.1
+        },
+        "yellowed": {
+          "comState": 0.1
+        }
+      }
+    },
+    "camera": {
+      "name": "camera",
+      "category": "consumeritem",
+      "size": 4,
+      "comBase": 0.03,
+      "comRepeat": 0.02,
+      "affOwner": ["parent", "professional", "student", "traveler"],
+      "affVehicle": ["family", "offroad", "sedan", "showoff", "sports"],
+      "affStorage": ["storGloveBox", "storCenCon", "storCenConR", "storRearCompDriv", "storRearCompPass", "storTrunk"],
+      "variants": [
+        {
+          "type": "box",
+          "start": 1950,
+          "end": 1965,
+          "comVari": 0.3
+        },
+        {
+          "type": "digital SLR",
+          "start": 2007,
+          "end": 2050,
+          "power": {
+            "type": "DC",
+            "battery": "LiON",
+            "number": 1,
+            "replaceable": true
+          },
+          "comVari": 0.2
+        },
+        {
+          "type": "disposable",
+          "start": 1994,
+          "end": 2009,
+          "comVari": 0.7
+        },
+        {
+          "type": "medium-format",
+          "start": 1950,
+          "end": 1984,
+          "comVari": 0.2
+        },
+        {
+          "type": "mirrorless",
+          "start": 2017,
+          "end": 2050,
+          "power": {
+            "type": "DC",
+            "battery": "LiON",
+            "number": 1,
+            "replaceable": true
+          },
+          "comVari": 0.1
+        },
+        {
+          "type": "point-and-shoot digital",
+          "start": 2001,
+          "end": 2011,
+          "power": {
+            "type": "AC"
+          },
+          "comVari": 0.6
+        },
+        {
+          "type": "point-and-shoot analog",
+          "start": 1950,
+          "end": 2005,
+          "comVari": 0.8
+        },
+        {
+          "type": "Polaroid instant camera",
+          "start": 1974,
+          "end": 1993,
+          "comVari": 0.8
+        },
+        {
+          "type": "SLR",
+          "start": 1965,
+          "end": 2007,
+          "comVari": 0.2
+        }
+      ],
+      "itmState": {
+        "pristine": {
+          "comState": 0.5
+        },
+        "well-used": {
+          "comState": 0.4
+        },
+        "damaged": {
+          "comState": 0.1
+        }
+      }
+    },
+    "cards": {
+      "name": "cards",
+      "category": "consumeritem",
+      "size": 2,
+      "comBase": 0.08,
+      "comRepeat": 0,
+      "affOwner": ["elderly", "parent", "prepper", "student", "trucker", "worker"],
+      "affVehicle": ["economy", "family", "offroad", "pickup", "sedan", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenCon", "storCenConSm", "storRearCompDriv", "storRearCompPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "playing",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.9
+        },
+        {
+          "type": "tarot",
+          "start": 1976,
+          "end": 2050,
+          "comVari": 0.1
+        }
+      ],
+      "itmState": {
+        "deck of": {
+          "comState": 0.6
+        },
+        "deck of fancy": {
+          "comState": 0.05
+        },
+        "deck of lewd": {
+          "comState": 0.05
+        },
+        "deck of oversized": {
+          "comState": 0.05
+        },
+        "deck of specialty": {
+          "comState": 0.05
+        },
+        "completely empty box of": {
+          "comState": 0.1
+        },
+        "half deck of": {
+          "comState": 0.1
+        }
+      }
+    },
+    "carphone": {
+      "name": "car phone",
+      "category": "electronic",
+      "size": 4,
+      "comBase": 0.25,
+      "comRepeat": 0,
+      "affOwner": ["commercial", "commuter", "professional"],
+      "affVehicle": ["sedan", "sports"],
+      "affStorage": ["storCenTray", "storCenConTray", "storCenCon"],
+      "variants": [
+        {
+          "type": "touchtone",
+          "start": 1981,
+          "end": 1995,
+          "comVari": 0.5
+        },
+        {
+          "type": "wireless",
+          "start": 1996,
+          "end": 2002,
+          "comVari": 0.6
+        }
+      ],
+      "itmState": {
+        "functioning": {
+          "comState": 0.93,
+          "decay": 0,
+          "ord": 0
+        },
+        "malfunctioning": {
+          "comState": 0.05,
+          "decay": 720,
+          "ord": 1
+        },
+        "non-functional": {
+          "comState": 0.02,
+          "decay": 2140,
+          "ord": 2
+        }
+      }
+    },
+    "carseat": {
+      "name": "seat",
+      "category": "vehicle",
+      "size": 6,
+      "comBase": 0.18,
+      "comRepeat": 0,
+      "affOwner": ["parent", "student", "teen", "worker"],
+      "affVehicle": ["economy", "family", "sedan"],
+      "affStorage": ["seatRDriv", "seatRPass", "storTrunk"],
+      "variants": [
+        {
+          "type": "booster",
+          "start": 2002,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "child car",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.8
+        }
+      ],
+      "itmState": {
+        "buckled-up": {
+          "comState": 0.1
+        },
+        "faded": {
+          "comState": 0.4
+        },
+        "stained": {
+          "comState": 0.1
+        },
+        "unsecured": {
+          "comState": 0.1
+        },
+        "upside-down": {
+          "comState": 0.1
+        },
+        "worn": {
+          "comState": 0.2
+        }
+      }
+    },
+    "cassettetape": {
+      "name": "tape",
+      "category": "consumeritem",
+      "size": 2,
+      "comBase": 0.37,
+      "comRepeat": 0.85,
+      "affOwner": ["commuter", "parent", "prepper", "professional", "rideshare", "student", "teen", "traveler", "trucker", "worker"],
+      "affVehicle": ["economy", "family", "offroad", "sedan", "showoff", "sports", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenTray", "storCenCupHold", "storCenConTray", "storCenCon", "storDoorFDriv", "storDoorFPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "eight-track",
+          "start": 1967,
+          "end": 1981,
+          "comVari": 0.6
+        },
+        {
+          "type": "cassette",
+          "start": 1978,
+          "end": 1996,
+          "comVari": 0.8
+        },
+        {
+          "type": "mix",
+          "start": 1984,
+          "end": 1999,
+          "comVari": 0.4
+        }
+      ],
+      "itmState": {
+        "cracked": {
+          "comState": 0.1
+        },
+        "grimy": {
+          "comState": 0.15
+        },
+        "hand-labeled": {
+          "comState": 0.25
+        },
+        "unlabeled": {
+          "comState": 0.2
+        },
+        "unopened": {
+          "comState": 0.2
+        },
+        "unwound": {
+          "comState": 0.1
+        }
+      }
+    },
+    "dollarbill": {
+      "name": "dollar bill",
+      "category": "personal",
+      "size": 1,
+      "comBase": 0.15,
+      "comRepeat": 0.41,
+      "affOwner": ["commuter", "eldery", "esoteric", "parent", "prepper", "professional", "student", "traveler"],
+      "affVehicle": ["family", "pickup", "sedan", "showoff", "sports"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storAsh", "storCenTray", "storCenCupHold", "storCenConTray", "storCenCon", "storCenConSm", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "Silver-Certificate one",
+          "start": 1950,
+          "end": 1963,
+          "comVari": 0.1
+        },
+        {
+          "type": "one",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.4
+        },
+        {
+          "type": "two",
+          "start": 1976,
+          "end": 2050,
+          "comVari": 0.05
+        },
+        {
+          "type": "Silver-Certificate five",
+          "start": 1950,
+          "end": 1963,
+          "comVari": 0.05
+        },
+        {
+          "type": "five",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "ten",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "twenty",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "fifty",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "hundred",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.04
+        },
+        {
+          "type": "five-hundred",
+          "start": 1950,
+          "end": 1969,
+          "comVari": 0.003
+        },
+        {
+          "type": "thousand",
+          "start": 1950,
+          "end": 1969,
+          "comVari": 0.0005
+        }
+      ],
+      "itmState": {
+        "crumpled": {
+          "comState": 0.14
+        },
+        "fresh": {
+          "comState": 0.28
+        },
+        "folded": {
+          "comState": 0.32
+        },
+        "heavily worn": {
+          "comState": 0.22
+        },
+        "ripped up": {
+          "comState": 0.02
+        },
+        "taped-together": {
+          "comState": 0.02
+        }
+      }
+    },
+    "facemask": {
+      "name": "mask",
+      "category": "wearable_face",
+      "size": 2,
+      "comBase": 0.16,
+      "comRepeat": 0.65,
+      "affOwner": ["commercial", "parent", "rideshare", "teen", "trucker", "worker"],
+      "affVehicle": ["commercial", "economy", "family", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenTray", "storCenCupHold", "storCenConTray", "storCenCon", "storDoorFDriv", "seatUnderFDriv", "hangRearviewCent", "hangShifter", "hangStalksWipers"],
+      "variants": [
+        {
+          "type": "cloth face",
+          "start": 2020,
+          "end": 2022,
+          "comVari": 0.3
+        },
+        {
+          "type": "dust",
+          "start": 1981,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "N95",
+          "start": 2020,
+          "end": 2022,
+          "comVari": 0.1
+        },
+        {
+          "type": "surgical face",
+          "spawnGroup": {
+            "mode": "bundle",
+            "min": 1,
+            "max": 8
+          },
+          "start": 2020,
+          "end": 2023,
+          "comVari": 0.6
+        }
+      ],
+      "itmState": {
+        "clean": {
+          "comState": 0.4
+        },
+        "dirty": {
+          "comState": 0.5
+        },
+        "disgusting": {
+          "comState": 0.1
+        }
+      }
+    },
+    "flashlight": {
+      "name": "flashlight",
+      "category": "electronic",
+      "size": 4,
+      "comBase": 0.48,
+      "comRepeat": 0.1,
+      "affOwner": ["commercial", "commuter", "elderly", "parent", "prepper", "professional", "rideshare", "traveler", "trucker", "worker"],
+      "affVehicle": ["family", "offroad", "pickup", "sedan", "showoff", "sports", "truck"],
+      "affStorage": ["storGloveBox", "storTrunk"],
+      "variants": [
+        {
+          "type": "incandescent",
+          "start": 1950,
+          "end": 2010,
+          "power": {
+            "type": "DC",
+            "battery": "C",
+            "number": 3,
+            "replaceable": true
+          },
+          "comVari": 1.0
+        },
+        {
+          "type": "LED",
+          "start": 2008,
+          "end": 2050,
+          "power": {
+            "type": "DC",
+            "battery": "C",
+            "number": 3,
+            "replaceable": true
+          },
+          "comVari": 1.0
+        }
+      ],
+      "itmState": {
+        "cheap": {
+          "comState": 0.5
+        },
+        "heavy-duty": {
+          "comState": 0.1
+        },
+        "quality": {
+          "comState": 0.4
+        }
+      }
+    },
+    "paperbacknovel": {
+      "name": "paperback novel",
+      "category": "consumeritem",
+      "size": 3,
+      "comBase": 0.08,
+      "comRepeat": 0.28,
+      "affOwner": ["elderly", "parent", "professional", "student", "teen", "traveler", "trucker", "worker"],
+      "affVehicle": ["family", "pickup", "sedan", "truck"],
+      "affStorage": ["storGloveBox", "storDoorFDriv", "seatUnderFPass"],
+      "variants": [
+        {
+          "type": "fantasy",
+          "start": 1954,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "horror",
+          "start": 1974,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "manga",
+          "start": 2007,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "mystery",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "romance",
+          "start": 1988,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "sci-fi",
+          "start": 1977,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "thriller",
+          "start": 1962,
+          "end": 2050,
+          "comVari": 0.6
+        },
+        {
+          "type": "western",
+          "start": 1950,
+          "end": 1991,
+          "comVari": 0.5
+        },
+        {
+          "type": "young adult",
+          "start": 1992,
+          "end": 2050,
+          "comVari": 0.3
+        }
+      ],
+      "itmState": {
+        "well-read": {
+          "comState": 0.6
+        },
+        "pristine": {
+          "comState": 0.3,
+          "decay": 0,
+          "ord": 0
+        },
+        "water-damaged": {
+          "comState": 0,
+          "decay": 2200,
+          "ord": 1
+        },
+        "tattered": {
+          "comState": 0.1,
+          "decay": 4280,
+          "ord": 2
+        }
+      }
+    },
+    "playingcard": {
+      "name": "playing card",
+      "category": "consumeritem",
+      "size": 1,
+      "comBase": 0.04,
+      "comRepeat": 0.1,
+      "affOwner": ["elderly", "parent", "prepper", "professional", "student", "trucker", "worker"],
+      "affVehicle": ["economy", "family", "offroad", "pickup", "sedan", "showoff", "sports", "truck"],
+      "affStorage": ["storVisorDriv", "storVisorPass", "storGloveBox", "storGloveBoxUp", "storCenCon", "storCenConSm", "storRearCompDriv", "storRearCompPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "hearts",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.25
+        },
+        {
+          "type": "diamonds",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.9
+        },
+        {
+          "type": "clubs",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.9
+        },
+        {
+          "type": "spades",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.9
+        }
+      ],
+      "itmState": {
+        "ace of": {
+          "comState": 0.10
+        },
+        "two of": {
+          "comState": 0.07
+        },
+        "three of": {
+          "comState": 0.07
+        },
+        "four of": {
+          "comState": 0.07
+        },
+        "five of": {
+          "comState": 0.07
+        },
+        "six of": {
+          "comState": 0.07
+        },
+        "seven of": {
+          "comState": 0.07
+        },
+        "eight of": {
+          "comState": 0.07
+        },
+        "nine of": {
+          "comState": 0.07
+        },
+        "ten of": {
+          "comState": 0.07
+        },
+        "jack of": {
+          "comState": 0.09
+        },
+        "queen of": {
+          "comState": 0.09
+        },
+        "king of": {
+          "comState": 0.09
+        }
+      }
+    },
+    "portablespeaker": {
+      "name": "speaker",
+      "category": "electronic",
+      "size": 3,
+      "comBase": 0.19,
+      "comRepeat": 0.01,
+      "affOwner": ["commercial", "parent", "professional", "student", "traveler", "trucker"],
+      "affVehicle": ["commercial", "economy", "family", "offroad", "pickup", "showoff", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenCon", "storCenConR", "storDoorFDriv", "seatUnderFDriv", "seatUnderFPass", "storTrunk"],
+      "variants": [
+        {
+          "type": "Bluetooth",
+          "start": 2009,
+          "end": 2050,
+          "power": {
+            "type": "DC",
+            "battery": "LiON",
+            "number": 1,
+            "replaceable": false
+          },
+          "comVari": 1.0
+        },
+        {
+          "type": "portable radio",
+          "start": 1960,
+          "end": 2003,
+          "power": {
+            "type": "DC",
+            "battery": "AA",
+            "number": 4,
+            "replaceable": true
+          },
+          "comVari": 1.0
+        }
+      ],
+      "itmState": {
+        "working": {
+          "comState": 0.98,
+          "decay": 0,
+          "ord": 0
+        },
+        "inoperable": {
+          "comState": 0.01,
+          "decay": 3480,
+          "ord": 1
+        },
+        "corroded": {
+          "comState": 0.01,
+          "decay": 7300,
+          "ord": 2
+        }
+      }
+    },
+    "roadatlas": {
+      "name": "road atlas",
+      "category": "vehicle",
+      "size": 4,
+      "comBase": 0.4,
+      "comRepeat": 0.08,
+      "affOwner": ["commercial", "parent", "prepper", "student", "traveler", "trucker", "worker"],
+      "affVehicle": ["commercial", "family", "pickup", "sedan", "showoff", "sports", "truck"],
+      "affStorage": ["storCenCon", "storRearWell", "seatFPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "American scenic drives",
+          "start": 1965,
+          "end": 2030,
+          "comVari": 0.1
+        },
+        {
+          "type": "national parks guide",
+          "start": 2006,
+          "end": 2030,
+          "comVari": 0.1
+        },
+        {
+          "type": "North American",
+          "start": 1950,
+          "end": 2030,
+          "comVari": 0.3
+        },
+        {
+          "type": "offroad",
+          "start": 1980,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "Route 66",
+          "start": 1970,
+          "end": 2030,
+          "comVari": 0.02
+        },
+        {
+          "type": "spiral-bound state",
+          "start": 1991,
+          "end": 2013,
+          "comVari": 0.2
+        },
+        {
+          "type": "state",
+          "start": 1954,
+          "end": 2030,
+          "comVari": 0.5
+        },
+        {
+          "type": "trucker's",
+          "start": 1954,
+          "end": 2030,
+          "comVari": 0.05
+        },
+        {
+          "type": "United States",
+          "start": 1950,
+          "end": 2030,
+          "comVari": 0.3
+        },
+        {
+          "type": "United States radio station",
+          "start": 1950,
+          "end": 1986,
+          "comVari": 0.08
+        }
+      ],
+      "itmState": {
+        "well-read": {
+          "comState": 0.6
+        },
+        "pristine": {
+          "comState": 0.3,
+          "decay": 0,
+          "ord": 0
+        },
+        "water-damaged": {
+          "comState": 0,
+          "decay": 2200,
+          "ord": 1
+        },
+        "tattered": {
+          "comState": 0.1,
+          "decay": 4280,
+          "ord": 2
+        }
+      }
+    },
+    "sparewheel": {
+      "name": "tire",
+      "category": "vehicle",
+      "size": 6,
+      "comBase": 0.94,
+      "comRepeat": 0,
+      "affOwner": ["commercial", "commuter", "elderly", "parent", "prepper", "professional", "rideshare", "traveler", "worker"],
+      "affVehicle": ["commercial", "economy", "family", "offroad", "pickup", "sedan", "showoff", "sports"],
+      "affStorage": ["storRearWell"],
+      "variants": [
+        {
+          "type": "spare",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 1.0
+        }
+      ],
+      "itmState": {
+        "inflated": {
+          "comState": 0.94,
+          "decay": 0,
+          "ord": 0
+        },
+        "deflated": {
+          "comState": 0.05,
+          "decay": 5920,
+          "ord": 1
+        },
+        "rotted": {
+          "comState": 0.01,
+          "decay": 9480,
+          "ord": 2
+        }
+      }
+    },
+    "vehicleregistration": {
+      "name": "vehicle registration",
+      "category": "vehicle",
+      "size": 1,
+      "comBase": 0.91,
+      "comRepeat": 0,
+      "affOwner": ["commuter", "elderly", "parent", "professional", "student", "traveler", "worker"],
+      "affVehicle": ["commercial", "economy", "family", "pickup", "sedan", "showoff", "sports"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp"],
+      "variants": [
+        {
+          "type": "state",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 1.0
+        }
+      ],
+      "itmState": {
+        "valid": {
+          "comState": 0.9,
+          "decay": 0,
+          "ord": 0
+        },
+        "recently-expired": {
+          "comState": 0.01,
+          "decay": 365,
+          "ord": 1
+        },
+        "expired": {
+          "comState": 0.09,
+          "decay": 406,
+          "ord": 2
+        }
+      }
+    },
+    "wetwipes": {
+      "name": "wipes",
+      "category": "consumable_health",
+      "size": 4,
+      "comBase": 0.11,
+      "comRepeat": 0.24,
+      "affOwner": ["parent", "prepper", "trucker"],
+      "affVehicle": ["economy", "family", "sedan", "truck"],
+      "affStorage": ["storGloveBox", "storGloveBoxUp", "storCenConTray", "storCenCon", "storCenConR", "storTrunk"],
+      "variants": [
+        {
+          "type": "box of baby",
+          "start": 1990,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "tube of disinfecting wet",
+          "start": 2008,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "box of natural wet",
+          "start": 2013,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "box of scent-free wet",
+          "start": 2006,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "box of wet",
+          "start": 2005,
+          "end": 2050,
+          "comVari": 0.4
+        }
+      ],
+      "itmState": {
+        "fresh": {
+          "comState": 0.9,
+          "decay": 0,
+          "ord": 0
+        },
+        "dried out": {
+          "comState": 0.1,
+          "decay": 580,
+          "ord": 1
+        }
+      }
+    },
+    "workgloves": {
+      "name": "work glove",
+      "category": "wearable_hands",
+      "size": 2,
+      "comBase": 0.09,
+      "comRepeat": 0.5,
+      "affOwner": ["commercial", "prepper", "trucker", "worker"],
+      "affVehicle": ["commercial", "offroad", "pickup", "truck"],
+      "affStorage": ["storGloveBox", "storCenCon", "storDoorFDriv", "storDoorFPass", "storRearWell", "seatUnderFCent", "seatUnderFPass"],
+      "variants": [
+        {
+          "type": "leather",
+          "spawnGroup": {
+            "mode": "pair",
+            "min": 1,
+            "max": 2
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.5
+        },
+        {
+          "type": "heavy-duty",
+          "spawnGroup": {
+            "mode": "pair",
+            "min": 1,
+            "max": 2
+          },
+          "start": 1970,
+          "end": 2050,
+          "comVari": 0.1
+        },
+        {
+          "type": "nitrile coated",
+          "spawnGroup": {
+            "mode": "pair",
+            "min": 1,
+            "max": 2
+          },
+          "start": 2016,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "waterproof",
+          "spawnGroup": {
+            "mode": "pair",
+            "min": 1,
+            "max": 2
+          },
+          "start": 1989,
+          "end": 2050,
+          "comVari": 0.5
+        }
+      ],
+      "itmState": {
+        "blood-stained": {
+          "comState": 0.01
+        },
+        "clean": {
+          "comState": 0.2
+        },
+        "dirty": {
+          "comState": 0.26
+        },
+        "new": {
+          "comState": 0.16
+        },
+        "old": {
+          "comState": 0.24
+        },
+        "worn": {
+          "comState": 0.13
+        }
+      }
+    },
+    "wrapper": {
+      "name": "wrapper",
+      "category": "junk",
+      "size": 1,
+      "comBase": 0.26,
+      "comRepeat": 0.65,
+      "affOwner": ["commercial", "commuter", "parent", "rideshare", "student", "teen", "traveler", "trucker", "worker"],
+      "affVehicle": ["family", "offroad", "pickup", "sedan", "truck"],
+      "affStorage": ["storCenCupHold", "storDoorFDriv", "storDoorFPass", "storDoorRDriv", "storDoorRPass", "storTDriv", "storTPass", "seatUnderFDriv", "seatUnderFCent", "seatUnderFPass", "seatUnderRDriv", "seatUnderRCent", "seatUnderRPass", "seatUnderTDriv", "seatUnderTCent", "seatUnderTPass"],
+      "variants": [
+        {
+          "type": "bandaid",
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.45
+        },
+        {
+          "type": "breakfast sandwich",
+          "spawnGroup": {
+            "mode": "wad",
+            "min": 3,
+            "max": 8
+          },
+          "start": 1987,
+          "end": 2050,
+          "comVari": 0.2
+        },
+        {
+          "type": "gum",
+          "spawnGroup": {
+            "mode": "bunch",
+            "min": 3,
+            "max": 8
+          },
+          "start": 1950,
+          "end": 2050,
+          "comVari": 0.7
+        },
+        {
+          "type": "hamburger",
+          "spawnGroup": {
+            "mode": "wad",
+            "min": 3,
+            "max": 8
+          },
+          "start": 1969,
+          "end": 2050,
+          "comVari": 0.8
+        },
+        {
+          "type": "sandwich",
+          "spawnGroup": {
+            "mode": "bunch",
+            "min": 3,
+            "max": 8
+          },
+          "start": 1971,
+          "end": 2050,
+          "comVari": 0.3
+        },
+        {
+          "type": "taco",
+          "spawnGroup": {
+            "mode": "pile",
+            "min": 3,
+            "max": 8
+          },
+          "start": 1976,
+          "end": 2050,
+          "comVari": 0.3
+        }
+      ],
+      "itmState": {
+        "crumpled": {
+          "comState": 0.7
+        },
+        "wrinkled": {
+          "comState": 0.3
+        }
+      }
+    }
+  }
+}
